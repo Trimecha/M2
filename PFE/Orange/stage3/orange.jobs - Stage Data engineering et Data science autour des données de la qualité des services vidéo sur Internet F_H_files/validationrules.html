@@ -1,0 +1,96 @@
+
+var validationRules = [
+	['validate-ascii', 'Utilisez seulement des caract&egrave;res occidentaux ', function(v) {
+		return isascii(v);
+	}],
+	['validate-required', 'Cette information est n&eacute;cessaire', function(v) {
+		v = v.replace(/^\s+|\s+$/g, '');
+		return !(v == '');
+	}],
+	['validate-email', 'Entrez une adresse valide. Par exemple jean@domaine.com', function (v) {
+		return (v == '') || /\w{1,}[@][\w\-]{1,}([.]([\w\-]{1,})){1,3}$/.test(v)
+	}],
+	['validate-phone', 'Utilisez des chiffres uniquement', function (v) {
+		return (v == '') || /^[\s()+-]*([0-9][\s()+-]*){6,20}$/.test(v)
+	}],
+	['validate-nosameemail', 'Les e-mails doivent &ecirc;tre diff&eacute;rents', function (v) {
+				return $("#emailPub").html().replace(/^\s+|\s+$/g, '') != $("#emailgodson").val();
+			}],
+	['validate-selection', 'Merci de s&eacute;lectionner une valeur', function(v,elm){
+				return elm.options ? elm.selectedIndex > 0 : !(v == '');
+			}],
+	['validate-one-required', 'Merci de s&eacute;lectionner une valeur', function (v,elm) {
+				var p = elm.parentNode;
+				var options = p.getElementsByTagName('option');
+				return $A(options).any(function(elm) {
+					return $F(elm);
+				});
+			}],
+	['validate-cb-required', 'accord manquant', function(v,elm) {
+				return $(elm).is(':checked');
+			}],
+	['validate-resume-required', 'CV manquant', function(v,elm) {
+			return !($("#resumetext").val() == "" && $("#resumefile").val() == "");
+			}],
+	['validate-letter-required', 'Lettre manquante', function(v,elm) {
+			return !($("#lettertext").val() == "" && $("#letterfile").val() == "");
+			}],
+	['validate-resumefilename-required', 'CV manquant', function(v,elm) {
+			return $('[name*="resumefilename"]').val()!='';
+			}],
+	['validate-letterfilename-required', 'Lettre manquante', function(v,elm) {
+			return $('[name*="letterfilename"]').val()!='' || $('[name*="lettertext"]').val().trim()!='';
+			}],
+	['validate-country', 'Ce pays est inconnu', function(v,elm) {
+			var text = $(elm).val();
+			var id = $('#id_' + $(elm).attr('id')).val();
+			if( countries ){
+				var items = countries.items;
+				if ($.isArray(items)) {
+					for (var i = 0; i < items.length; i++) {
+						if ( id == items[i].id ) return true;
+					}
+					for (var i = 0; i < items.length; i++) {
+						if ( text.toLowerCase() == items[i].title.toLowerCase() ){
+							$('#id_' + $(elm).attr('id')).val(items[i].id);
+							return true;
+						}
+					}
+				}
+			}
+			return false;
+			}],
+	['validate-number', 'Merci de saisir un nombre', function(v) {
+		return (v == '') || (!isNaN(v) && !/^\s+$/.test(v));
+	}],
+	['validate-from', 'La date de d&eacute;but est incorrecte (ex: 1998)', function(v) {	
+		if((v == '')) return true;
+		var regex = /^(\d{4})$/;
+		if(!regex.test(v)) return false;
+		var year = new Date().getFullYear();
+		return (v <= year) && ( ($('[name*="to"]').val() == '') || v <= $('[name*="to"]').val() ) ;
+	}],
+	['validate-to', 'La date de sortie est incorrecte (ex: 1998)', function(v) {
+		if((v == '')) return true;
+		var regex = /^(\d{4})$/;
+		if(!regex.test(v)) return false;
+		var year = new Date().getFullYear();
+		return (v <= year) && (v >= $('[name*="from"]').val()) ;
+	}],
+	['validate-ext', 'D&eacute;sol&eacute;, les extensions peuvent &ecirc;tre uniquement doc, pdf, rtf ou docx', function(v) {
+		if (v == '') return true;
+		var ind = v.lastIndexOf( "." ) ;
+		if ( ind == -1 || ind == v.length - 1 ) return false ;
+		var ext = v.substring( ind + 1 ) ;
+		return (ext == 'doc' || ext == 'docx' || ext == 'pdf' || ext == 'rtf' );
+	}],
+	['validate-maxLength255', 'D&eacute;sol&eacute;, la taille du texte est limit&eacute;e &agrave; 255 caract&egrave;res', function(v) {
+		return (v.length <= 255);
+	}],
+	['validate-check-required', 'Cette information est n&eacute;cessaire', function(v,elm) {
+		return $(elm).is(':checked');
+	}],
+	['validate-select-required', 'Cette information est n&eacute;cessaire', function(v,elm) {
+		return $(elm).val();
+	}]
+];

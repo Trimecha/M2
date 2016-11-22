@@ -1,0 +1,286 @@
+
+
+
+/* ----- Pour débug -----*/
+/* ----- Start ----------*/
+
+/*
+.theme_search h4{color:#707070}
+.theme_search .refines h3 {color:#3B3B3B}
+
+.theme_search h2, div.custom h3.rounded-top, div.custom h3.rounded-top a, select {
+color:#3B3B3B;
+margin-bottom: 5px;
+font-size: 12px;
+font-weight: bold;
+text-align:left;
+line-height: 15px
+}
+
+
+*/
+/* ----- End ----------*/
+/* ----- Pour débug -----*/
+
+
+
+
+
+body.solidworks .refines div.fillbar div.countcontainer {
+line-height: 11px;
+font-size: 9px;
+position: relative;
+right: 5px;
+top: 2px;
+color: #555;
+}
+
+body.solidworks table.facet {margin-top:10px}
+
+body.solidworks h3.rounded-top {
+color:#3B3B3B;
+font-size: 24px;
+margin-bottom: 10px;
+font-weight: bold;
+line-height: 20px
+}
+
+
+
+body.solidworks .refines .category {color: #939598}
+
+
+
+body.solidworks div.custom h3.rounded-top a {color:#1A79B1}
+
+body.solidworks .theme_search .searchButton {font-size:12px;font-weight:normal;color:#FFFFFF;background-color:#1A79B1;background-image:none}
+
+
+body.solidworks div .displayHitsAsTable th.column_title {width:auto}
+
+body.solidworks div.hitInfo, p {text-align:justify}
+ 
+body.solidworks div .customcheckbox {font-size: 10px;font-style: italic;text-align:right}
+
+
+body.solidworks select {
+color:#3B3B3B;
+margin-bottom: 5px;
+font-size: 13px;
+text-align:left}
+
+body.solidworks div.filler {display:none}
+
+body.solidworks .theme_search a {color: #1A79B1}
+
+
+/* HIDE BUTTON */
+body.solidworks #psft_version_text {display:none}
+
+
+body.solidworks .floatCheckboxes {float:left;width:31%;margin-right:2%;margin-bottom:20px}
+
+/*
+body.solidworks .theme_search li.hit.default {float:left;width:47%;margin-right:1%;margin-bottom:3px;border-style:solid;border-width:1px;border-color:#C0C0C0;background-color:#F8F8F8;padding:5px;min-height:77px}
+
+*/
+
+ 
+body.solidworks .buttonCheck {background:#1A79B1;border-width:0px;color:#FFFFFF;border-style:solid; padding: 5px; border-color: #D0D0D0; cursor:pointer;visibility:hidden }  
+
+
+
+/* HIT AS TABLE */
+
+body.solidworks .displayHitsAsTable th.column_posting_title {
+	width: 200px;
+}
+
+body.solidworks .displayHitsAsTable th.column_country {
+	width: 100%;
+}
+
+body.solidworks .displayHitsAsTable th.column_id {
+	width: 55px;
+}
+
+
+/* Display hits */
+
+body.solidworks  #jobContainer h2 {position:relative;background:#EAEAEA;line-height:22px;color:#3B3B3B;font-size:12px;padding: 5px 25px 5px 15px;margin-bottom:5px;margin-top:5px;-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px}
+body.solidworks #jobContainer h2:hover {background-position: 0 -58px}
+body.solidworks #jobContainer table {width:100%}
+/* #jobContainer td {width:50%} */
+body.solidworks #jobContainer tr td.checkbox {width:5%;white-space:nowrap;padding-left:10px}
+body.solidworks #jobContainer tr td.title {width:350px}
+/* #jobContainer tr td.id {width:55px}*/
+body.solidworks #jobContainer tr td.country {width:95px; text-align:center}
+body.solidworks #jobContainer tr td.job_type {width:80px}
+body.solidworks #jobContainer {text-align:left}
+body.solidworks #jobContainer h2.open .plus-minus {background:url(/360-mashup-ui/resources/recruitment/plus%20minus.png) 0 0 no-repeat;width:8px;height:8px;position:absolute;top:12px;right:10px}
+
+body.solidworks  #jobContainer h2.closed .plus-minus {background:url(/360-mashup-ui/resources/recruitment/plus%20minus.png) 0 -58px no-repeat;width:8px;height:8px;position:absolute;top:12px;right:10px}
+body.solidworks  #jobContainer .title a span { font-weight:normal }
+body.solidworks  #jobContainer span.sortAsc { background-image:url(/360-mashup-ui/resources/recruitment/arrow-up.png); width:16px; height:16px; cursor:pointer; display:inline-block }
+body.solidworks  #jobContainer span.sortDesc { background-image:url(/360-mashup-ui/resources/recruitment/arrow-down.png); width:16px; height:16px; cursor:pointer; display:inline-block }
+
+body.solidworks  #jobContainer tr.odd td {background-color:#f0F0F0;border-style:solid;border-bottom:1px dotted #cccccc}
+body.solidworks  #jobContainer tr.even td{background-color:white;border-style:solid;border-bottom:1px dotted #cccccc}
+
+body.solidworks  .sprite-accordion_minus{ background-position: 0 0; width: 8px; height: 8px; } 
+body.solidworks  .sprite-accordion_plus{ background-position: 0 -58px; width: 8px; height: 8px; }
+
+
+/* DETAILS PAGE */
+body.solidworks  div.boxTop, div.boxBottom {display:none}
+body.solidworks  .theme_search div.boxMD {border:0;padding:0}
+
+
+
+
+body.solidworks  #back {background-color:#EAEAEA;line-height:22px;color:#1A79B1;font-size:12px;padding: 5px 25px 5px 15px;-moz-border-radius: 3px;text-align: right;
+-o-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px}
+
+body.solidworks  .postingTitle h2 {
+color:#43718D;
+font-size: 24px;
+line-height:26px;
+text-align:left;
+margin-bottom:20px}
+
+/* APPLY BUTTON - detail page */
+body.solidworks  #psft8_button, body.solidworks  #psft9_button {border:0;background-position: 0 0;line-height:20px;background-color:#1A79B1;color:#ffffff;font-size:12px;padding: 5px 8px 5px 15px;margin-bottom:10px;margin-top:10px;text-align: right;white-space: nowrap}
+body.solidworks  #psft8_button:hover, body.solidworks  #psft9_button:hover {background-position: 0 -80px}
+
+body.solidworks  #psft8_button span.icon_apply, body.solidworks  #psft9_button span.icon_apply {margin-right: 10px; margin-left:5px;margin-top:2px;position:relative;display:inline-block;background: url(/360-mashup-ui/resources/recruitment/apply.png) 0 -65px; width:15px;height:15px}
+body.solidworks  #psft8_button:hover span.icon_apply, body.solidworks  #psft9_button:hover span.icon_apply {background-position: 0 -65px}
+
+
+
+
+body.solidworks  #back a {color:#1A79B1;font-weight: bold}
+
+body.solidworks  hr {background: #CCC;color: #CCC;height: 1px;margin: 10px 0;padding: 0;border: 0}
+
+
+
+body.solidworks  div.floatCheckboxes{padding-left: 5px;border-left:1px dotted #E4E5E6;margin-right:5px}
+
+/* INFO BULLE */
+
+body.solidworks  a.a_job {position:relative;z-index:24;text-decoration:none;font-weight:normal}
+body.solidworks  a.a_job:hover {position:relative;z-index:25;text-decoration:none}
+
+
+body.solidworks  a.a_job span {
+display: none
+}
+
+body.solidworks  a.a_job:hover span {
+-moz-box-shadow: 5px 5px 5px 0px #656565;
+-webkit-box-shadow: 5px 5px 5px 0px #656565;
+-o-box-shadow: 5px 5px 5px 0px #656565;
+box-shadow: 5px 5px 5px 0px #656565;
+display:block;
+position:absolute; 
+background-color:white !important;
+top:20px;  left:0;
+boxrder:3px solid #E4E5E6;
+line-height: 22px;
+color: #3B3B3B;
+text-align: justify;
+padding:5px;
+width:550px;
+z-index:999999999999999999999999999999999;
+background-image:url(/360-mashup-ui/resources/recruitment/background-stripes.gif)
+}
+
+body.solidworks  #myForm {text-align:right}
+
+
+/* ------------------------ */
+/* Recruitment_details page */
+/* ------------------------ */
+
+body.solidworks  .container {margin-bottom:30px}
+body.solidworks  .container h2 {border-bottom:1px solid #ccc}
+body.solidworks  h2.title {color: #43718D;
+font-size: 24px;
+margin-bottom: 10px;
+font-weight: bold;
+line-height: 30px;}
+
+body.solidworks  #languageVerification {display:none;border:120px}
+
+
+
+/* -------START---------- */
+/* SPECIFIC TO SOLIDWORKS */
+/* ---------------------- */
+
+html, body.solidworks {
+color: #333;
+font: 11px Verdana,Arial,Helvetiva,sans-serif;
+width:100%}
+
+body.solidworks #menuTop{display:none}
+
+body.solidworks h2.title, body.solidworks div.top h2{
+font: 23px Verdana;
+clear: both;
+color: #525151;
+-webkit-margin-before: 0.67em;
+-webkit-margin-after: 0.67em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px
+}
+
+body.solidworks ul.toolbar {display:none}
+
+body.solidworks .theme_search a {
+color: #369;
+}
+
+body.solidworks #jobContainer h2 {
+position: relative;
+background: #EFEFEF;
+line-height: 22px;
+color: #525151;
+font-size: 12px;
+padding: 5px 25px 5px 15px;
+margin-bottom: 5px;
+margin-top: 5px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+body.solidworks input.searchInput {
+background-color: #EFEFEF;
+font-size: 12px;
+vertical-align: top;
+border-image: initial;
+}
+
+body.solidworks .theme_search .searchButton, body.solidworks .buttonCheck,body.solidworks #psft8_button,body.solidworks #psft9_button {
+background-color: #707070;
+color: white;
+border:0;
+font-weight: bold;
+height:26px;
+cursor: pointer;
+padding-bottom: 3px;
+background-image: url(/360-mashup-ui/resources/recruitment/GradientSlice.png)
+}
+
+
+
+/* -------END------------ */
+/* SPECIFIC TO SOLIDWORKS */
+/* ---------------------- */

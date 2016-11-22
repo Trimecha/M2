@@ -1,0 +1,240 @@
+html, body {
+font: normal 13px Arial, Helvetica, sans-serif;
+color: #3B3B3B;
+line-height:18px;spacing:0;margin:0
+}
+
+.theme_search h4{color:#707070}
+
+
+.refines div.fillbar div.countcontainer {
+line-height: 11px;
+font-size: 9px;
+position: relative;
+right: 5px;
+top: 2px;
+color: #555;
+}
+
+table.facet {margin-top:10px}
+
+h3.rounded-top {
+color:#3B3B3B;
+font-size: 24px;
+margin-bottom: 10px;
+font-weight: bold;
+line-height: 20px
+}
+
+.theme_search .refines h3 {color:#3B3B3B}
+
+.refines .category {
+color: #97999b;
+}
+
+.theme_search h2, div.custom h3.rounded-top, div.custom h3.rounded-top a, select {
+color:#3B3B3B;
+margin-bottom: 5px;
+font-size: 12px;
+font-weightxxx: bold;
+text-align:left;
+line-height: 15px
+}
+
+div.custom h3.rounded-top a {
+color:#5b7f95;
+}
+
+.theme_search .searchButton {font-size:12px;font-weight:normal;color:#FFFFFF;background-color:#A2BBCF;background-image:none; line-height:25px}
+
+
+div .displayHitsAsTable th.column_title {
+
+width:auto
+}
+
+div.hitInfo, p {text-align:justify}
+ 
+div .customcheckbox {font-size: 10px;font-style: italic;line-height:9px; padding-right:2px; text-align:right}
+
+
+select {
+color:#3B3B3B;
+margin-bottom: 5px;
+font-size: 13px;
+text-align:left}
+
+div.filler {display:none}
+
+.theme_search a {
+color: #5b7f95;
+}
+
+
+/* HIDE BUTTON */
+#psft_version_text {display:none}
+
+
+.xxxfloatCheckboxes {float:left;width:31%;margin-right:2%;margin-bottom:20px}
+
+/*
+.theme_search li.hit.default {float:left;width:47%;margin-right:1%;margin-bottom:3px;border-style:solid;border-width:1px;border-color:#C0C0C0;background-color:#F8F8F8;padding:5px;min-height:77px}
+
+*/
+
+ 
+.buttonCheck {background:#A2BBCF;border-width:0px;color:#FFFFFF;border-style:solid; padding: 5px; border-color: #D0D0D0; cursor:pointer;visibility:hidden }  
+
+
+
+/* HIT AS TABLE */
+
+.displayHitsAsTable th.column_posting_title {
+	width: 200px;
+}
+
+.displayHitsAsTable th.column_country {
+	width: 100%;
+}
+
+.displayHitsAsTable th.column_id {
+	width: 55px;
+}
+
+
+/* Display hits */
+
+#jobContainer h2 {position:relative;background:#A2BBCF;line-height:22px;color:white;font-size:12px;padding: 5px 25px 5px 15px;margin-bottom:5px;margin-top:5px;-moz-border-radiusxxx: 3px;
+-o-border-radiusxxx: 3px;
+-khtml-border-radiusxxx: 3px;
+-webkit-border-radiusxxx: 3px}
+#jobContainer h2:hover {background-position: 0 -58px}
+#jobContainer table { width:100% }
+#jobContainer tr td.checkbox {padding-left:10px; width:75px}
+#jobContainer tr td.country {text-align:center; padding:0 6px 0 3px}
+#jobContainer {text-align:left}
+#jobContainer h2.open .plus-minus {background:url(/360-mashup-ui/resources/recruitment/plus%20minus.png) 0 0 no-repeat;width:8px;height:8px;position:absolute;top:12px;right:10px}
+
+#jobContainer h2.closed .plus-minus {background:url(/360-mashup-ui/resources/recruitment/plus%20minus.png) 0 -58px no-repeat;width:8px;height:8px;position:absolute;top:12px;right:10px}
+#jobContainer .title a span { font-weight:normal }
+#jobContainer span.sortAsc { background-image:url(/360-mashup-ui/resources/recruitment/arrow-up.png); width:16px; height:16px; cursor:pointer; display:inline-block }
+#jobContainer span.sortDesc { background-image:url(/360-mashup-ui/resources/recruitment/arrow-down.png); width:16px; height:16px; cursor:pointer; display:inline-block }
+
+#jobContainer tr.odd td {background-color:#f0F0F0;border-style:solid;border-bottom:1px dotted #cccccc}
+#jobContainer tr.even td{background-color:white;border-style:solid;border-bottom:1px dotted #cccccc}
+
+.sprite-accordion_minus{ background-position: 0 0; width: 8px; height: 8px; } 
+.sprite-accordion_plus{ background-position: 0 -58px; width: 8px; height: 8px; }
+
+
+/* DETAILS PAGE */
+div.boxTop, div.boxBottom {display:none}
+.theme_search div.boxMD {border:0;padding:0}
+
+
+
+
+#back {line-height:22px;color:#5b7f95;font-size:12px;text-align: left}
+
+.postingTitle h2 {
+color:#43718D;
+font-size: 24px;
+line-height:26px;
+text-align:left;
+margin-bottom:20px}
+
+/* APPLY BUTTON - detail page */
+#psft8_button, #psft9_button {cursor:pointer;background:white;border:0;background-position: 0 0;line-height:31px;color:#61B9EC;font-size:12px;padding: 5px 8px 5px 0px;margin-bottom:10px;margin-top:10px;text-align: right;white-space: nowrap}
+#psft8_button:hover, #psft9_button:hover {background-position: 0 -80px}
+
+#psft8_button span.icon_apply, #psft9_button span.icon_apply {margin-right: 10px; margin-left:5px;margin-top:2px;position:relative;display:inline-block;background: url(/360-mashup-ui/resources/images/apply.png) 0 0;width:27px;height:31px}
+
+
+
+
+
+#back a {color:#61B9EC;font-weight: bold;text-decoration:none}
+
+hr {background: #CCC;color: #CCC;height: 1px;margin: 10px 0;padding: 0;border: 0}
+
+
+
+div.floatCheckboxes{padding-left: 5px;border-left:1px dotted #E4E5E6;margin-right:5px; padding:10px}
+
+/* INFO BULLE */
+
+a.a_job {position:relative;z-index:24;text-decoration:none;font-weight:normal}
+a.a_job:hover {position:relative;z-index:25;text-decoration:none}
+
+
+a.a_job span {
+display: none
+}
+
+a.a_job:hover span {
+-moz-box-shadow: 5px 5px 5px 0px #656565;
+-webkit-box-shadow: 5px 5px 5px 0px #656565;
+-o-box-shadow: 5px 5px 5px 0px #656565;
+box-shadow: 5px 5px 5px 0px #656565;
+
+
+display:block;
+position:absolute; 
+background-color:white !important;
+top:20px;  left:0;
+boxrder:3px solid #E4E5E6;
+line-height: 22px;
+color: #3B3B3B;
+text-align: justify;
+padding:5px;
+width:550px;
+z-index:999999999999999999999999999999999;
+background-image:url(/360-mashup-ui/resources/recruitment/background-stripes.gif)
+}
+
+#myForm {text-align:right}
+
+
+/* ------------------------ */
+/* Recruitment_details page */
+/* ------------------------ */
+
+.container {margin-bottom:30px}
+.container h2 {margin-top:20px;color:#143045}
+h2.title {color: #43718D;
+font-size: 24px;
+margin-bottom: 10px;
+font-weight: bold;
+line-height: 30px;
+}
+
+#languageVerification {display:none;border:120px}
+
+
+
+.closed .pagination { display:none }
+.pagination { display:inline; margin-left:10px }
+.pagination span { margin:0 4px; cursor:pointer}
+.pagination .paginationActive { font-weight:bold; font-size:17px }
+
+tr.odd, tr.even {height:40px}
+td#row_1_cell_0 {padding-right:35px}
+td.title {padding-left:10px}
+div.facets div.floatCheckboxes h3 {color:#415E6C}
+
+div.searchFormContent span.separator {display:none}
+
+div.searchFormContent .searchButton {margin-left:20px}
+div.searchFormContent {border:0}
+
+div.searchFormContent a.searchButton {margin-top:2px}
+
+div.searchFormContent input.searchInput {border:2px solid #D4DDE4; border-radius:15px}
+
+td.refineName {height:25px;vertical-align: top}
+div.container span {font-size:19px;line-height:23px}
+
+td.chexboxes {padding-right:10px;vertical-align: top}
+div.customcheckbox {padding-right: 10px}
+td.title {padding:10px}
+

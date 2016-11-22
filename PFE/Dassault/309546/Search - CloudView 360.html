@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="baseurl" content="/360-mashup-ui/">
+<title>
+Search - CloudView 360
+</title>
+<link rel="canonical" href="http://jobs.extranet.3ds.com/360-mashup-ui/page/recruitment_details">
+<link rel="shortcut icon" type="image/ico" href="https://jobs.extranet.3ds.com/360-mashup-ui/resources/images/favicon.ico">
+<link type="text/css" media="screen,print" rel="stylesheet" href="Search%20-%20CloudView%20360_files/search-ui.css">
+<script type="text/javascript" src="Search%20-%20CloudView%20360_files/jquery-1.js" charset="utf-8"></script>
+<script type="text/javascript" src="Search%20-%20CloudView%20360_files/jquery.js" charset="utf-8"></script>
+<script type="text/javascript" src="Search%20-%20CloudView%20360_files/buildUrl.js" charset="utf-8"></script>
+<script type="text/javascript" src="Search%20-%20CloudView%20360_files/oop.js" charset="utf-8"></script>
+<script type="text/javascript" src="Search%20-%20CloudView%20360_files/mashupAjaxClient.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" media="all" href="Search%20-%20CloudView%20360_files/style.css">
+<link rel="stylesheet" type="text/css" media="all" href="Search%20-%20CloudView%20360_files/style_002.css">
+</head>
+<body id="body" class="theme_search modern gecko firefox " style="width: 100%;">
+<div id="mainWrapper">
+<style type="text/css">
+/* Page:recruitment_details */
+@font-face {
+font-family: '3ds Regular';
+src: url('/360-mashup-ui/resources/fonts/3DSREGULAR.OTF') format('truetype')}
+@font-face {
+font-family: '3ds Bold';
+src: url('/360-mashup-ui/resources/fonts/3DSBOLD.OTF') format('truetype')}
+@font-face {
+font-family: '3ds Light';
+src: url('/360-mashup-ui/resources/fonts/3DSLIGHT.OTF') format('truetype')}
+@font-face {
+font-family: '3ds Italic';
+src: url('/360-mashup-ui/resources/fonts/3DSITALIC.OTF') format('truetype')}
+body {background-color:white}
+body, input, textarea, button, form, div, td, ul, li, p, a { font-family: Arial;font-size:13px;line-height: 20px}
+.buttonStyle3DS { }
+.buttonStyle3DS button { border:0; cursor:pointer; background-image:url(http://vdexapeople1dsy:10000/360-mashup-ui/resources/recruitment/bg.jpg); padding:20px }
+.buttonStyle3DS button .container { background-image:url(http://vdexapeople1dsy:10000/360-mashup-ui/resources/recruitment/btn.jpg); background-position:0 top; box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.2); padding:10px; width:225px; margin:0;text-align: left;line-height:17px }
+.buttonStyle3DS button .container .buttonStyle3DS_Title1 { font:15px/14px "3dsRegular",arial; color:#FFFFFF }
+.buttonStyle3DS button .container .buttonStyle3DS_Title2 { font:15px/14px "3dsRegular",arial; color:#9BB6C9 }
+.buttonStyle3DS button:hover .container { background-position:0 bottom }
+h2 {color: #38576a;
+font-size: 26px;
+margin: 0 0 5px 0;
+font-family: '3ds', Helvetica, Arial, sans-serif;
+font-weight: normal;}
+/* customCss */
+/* @group toolbar */
+.contentblock ul.toolbar {
+float: right;
+margin: 0 0 0 15px;
+}
+.contentblock ul.toolbar.alt {
+display:none;
+}
+.contentblock ul.toolbar li {
+float: left;
+/*border-left: 1px solid #fff;*/
+list-style-image:none;
+background:none;
+margin:0;
+padding: 0;
+}
+.contentblock ul.toolbar li img {
+border:none;
+}
+.contentblock ul.toolbar li {
+display:none;
+margin:0;
+padding: 0;
+}
+.contentblock ul.toolbar li.addthis_toolbox {
+display:block;
+}
+.contentblock ul.toolbar li a.addthis_button_facebook,
+.contentblock ul.toolbar li a.addthis_button_twitter,
+.contentblock ul.toolbar li a.addthis_button_favorites,
+.contentblock ul.toolbar li a.addthis_button_email,
+.contentblock ul.toolbar li a.addthis_button_compact {
+background: url('http://a2.media.3ds.com/fileadmin/templates-silver/img/toolbar-addthis-24x23.png') 0 0 no-repeat transparent;
+display:block;
+width: 24px;
+height: 23px;
+_height:20px;
+float:left;
+cursor: pointer;
+margin:0;
+padding:0;
+}
+.contentblock ul.toolbar li a.addthis_button_facebook img,
+.contentblock ul.toolbar li a.addthis_button_twitter img,
+.contentblock ul.toolbar li a.addthis_button_favorites img,
+.contentblock ul.toolbar li a.addthis_button_email img,
+.contentblock ul.toolbar li a.addthis_button_compact img{
+margin:0;
+padding:0;
+border:0;
+width: 24px;
+height: 23px;
+_height:20px;
+/*display:none;*/
+}
+.contentblock ul.toolbar li a.addthis_button_facebook {
+background-position: 0 0;
+}
+.contentblock ul.toolbar li a.addthis_button_twitter {
+background-position: -24px 0;
+}
+.contentblock ul.toolbar li a.addthis_button_favorites {
+background-position: -48px 0;
+}
+.contentblock ul.toolbar li a.addthis_button_email {
+background-position: -72px 0;
+}
+.contentblock ul.toolbar li a.addthis_button_compact {
+background-position: -96px 0 ;
+}
+.contentblock ul.toolbar li a.addthis_button_facebook:hover {
+background-position: 0 -23px ;
+}
+.contentblock ul.toolbar li a.addthis_button_twitter:hover {
+background-position: -24px -23px ;
+}
+.contentblock ul.toolbar li a.addthis_button_favorites:hover {
+background-position: -48px -23px ;
+}
+.contentblock ul.toolbar li a.addthis_button_email:hover {
+background-position: -72px -23px ;
+}
+.contentblock ul.toolbar li a.addthis_button_compact:hover {
+background-position: -96px -23px ;
+}
+</style>
+<table id="row_0" class="row " width="100%">
+<tbody><tr>
+<td class="cell" id="row_0_cell_0" style="width: 100%;" valign="top" align="left">
+<div class="wuid E2SAIQKV E2SAIQKV_1475826081501_0_recruitment_details" style=""></div>
+<script type="text/javascript">
+var autoGeneratedId_pyFYQwKt = {};
+</script>
+<script type="text/javascript" src="Search%20-%20CloudView%20360_files/recruitment_setup.js"></script>
+<div class="wuid 5YZDj6EZ 5YZDj6EZ_1475826081502_0_recruitment_details" style="">
+<script>
+function addParamsToUrl(url,params)
+{
+function getQueryString(key, def)
+{
+var regex, qs;
+if ( !def) { def = ''; }
+key = key.replace(/[[]/,"[").replace(/[]]/,"]");
+regex = new RegExp("[?&]"+key+"=([^&#]*)");
+qs = regex.exec(window.location.href);
+return qs ? qs[1] : def;
+}
+var i, def, val;
+for ( i = 0; i < params.length; i++ )
+{
+def = 'd' in params[i] ? params[i].d : null;
+if ( (val=getQueryString(params[i].p, def)) )
+{
+url += url.indexOf('?') == -1 ? '?' : '&';
+url += params[i].p + '=' + val;
+}
+}
+return url;
+}
+</script>
+</div>
+<link type="text/css" media="screen" rel="stylesheet" href="Search%20-%20CloudView%20360_files/3ds.css">
+<link type="text/css" media="screen" rel="stylesheet" href="Search%20-%20CloudView%20360_files/solidworks.css">
+</td>
+</tr>
+</tbody></table>
+<table id="row_1" class="row " width="100%">
+<tbody><tr>
+<td class="cell" id="row_1_cell_0" style="width: 2%;" valign="top" align="center">
+</td>
+<td class="cell" id="row_1_cell_1" style="width: 78%;" valign="top" align="center">
+<div class="wuid da9uUj6D da9uUj6D_1475826081503_0_recruitment_details" style="">
+<script>
+function goBackHistory(span, lang,query)
+{
+// A.href = addParamsToUrl(A.href, [{p:'style'}, {p:'lang',d:lang, 'language':lang}]);
+span.parentNode.href += '?L=' + (lang == "FRA" ? 1 : 0) + '&q=' + query;
+return true;
+}
+</script>
+<div id="back"><img src="Search%20-%20CloudView%20360_files/back.png"><a href="https://jobs.extranet.3ds.com/recruitment_portal"><span class="ENG" onclick="return goBackHistory(this, 'ENG','data');">&nbsp;&nbsp;Back to list</span><span class="FRA" onclick="return goBackHistory(this, 'FRA','data');">Retourner à la liste</span></a></div>
+</div>
+<div class="wuid cFYGZjGB cFYGZjGB_1475826081504_0_recruitment_details" style="">
+<style>
+.Y {display:none}
+#FRA img, #ENG img {border:2px solid white}
+</style>
+<div class="Y">Available version :
+<a class="Y" id="FRA" href="https://jobs.extranet.3ds.com/recruitment_details?q=309546&amp;L=1"><img src="Search%20-%20CloudView%20360_files/fra.png"></a>
+<a class="Y" id="ENG" href="https://jobs.extranet.3ds.com/recruitment_details?q=309546&amp;L=0"><img src="Search%20-%20CloudView%20360_files/eng.png"></a></div>
+</div>
+<div id="languageVerification" class="wuid searchWidget displayHits RMhcpXuC RMhcpXuC_1475826081505_0_recruitment_details" style="">
+<div class="wrapper">
+<div class="entries">
+<ul class="hits">
+<li class="hit default">
+<table class="id309546language" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td class="hitInfo" valign="top">
+<div class="hitInfo">
+</div>
+</td>
+</tr>
+</tbody></table>
+<div class="subWidget">
+<div class="wuid KpyjTFrb KpyjTFrb_1475826081506_0_language" style="">
+<style>
+.N {display:inline}
+</style>
+</div>
+</div>
+</li>
+<li class="hit default">
+<table class="id309546language" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td class="hitInfo" valign="top">
+<div class="hitInfo">
+</div>
+</td>
+</tr>
+</tbody></table>
+<div class="subWidget">
+<div class="wuid KpyjTFrb KpyjTFrb_1475826081507_1_language" style="">
+<style>
+.N {display:inline}
+</style>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="wuid searchWidget displayHits WpAvJxZQ WpAvJxZQ_1475826081508_0_recruitment_details" style="">
+<div class="wrapper">
+<div class="entries">
+<ul class="hits">
+<li class="hit default">
+<table class="id309546language" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td class="hitInfo" valign="top">
+<h3 class="rounded-top">
+</h3><h2 class="title">STAGE – Ingénieur(e) Recherche – Semi-Supervised Annotation Propagation</h2>
+<!-- <div class="contentblock">
+<ul class="toolbar"> <li class="addthis_toolbox addthis_default_style"> <a class="addthis_button_facebook"> <img src="/360-mashup-ui/resources/images/pixel.gif" width="23" height="24" alt="Facebook" /> </a> <a class="addthis_button_twitter"> <img src="/360-mashup-ui/resources/images/pixel.gif" width="23" height="24" alt="Twitter" /> </a> <a class="addthis_button_favorites"> <img src="/360-mashup-ui/resources/images/pixel.gif" width="23" height="24" alt="Favorites" /> </a> <a class="addthis_button_email"> <img src="/360-mashup-ui/resources/images/pixel.gif" width="23" height="24" alt="Email" /> </a> <a class="addthis_button_compact"> <img src="/360-mashup-ui/resources/images/pixel.gif" width="23" height="24" alt="AddThis" /> </a>
+</li> </ul> </div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=webteam3ds"></script> -->
+
+<div class="hitInfo">
+<style>
+#FRA img {border-color:#ccc}
+h2 span.ENG {display:none}
+h2 span.FRA {display:none}
+h2 span.FRA {display:block}
+span.ENG {display:none}
+span.FRA {display:none}
+span.FRA {display:inline}
+</style>
+<div id="youtube">
+<div style="overflow:auto">
+<div style="float:left;width:100px"><h2><span class="ENG">Reference</span><span class="FRA">Référence</span></h2>309546</div>
+<div style="float:left;width:200px"><h2><span class="ENG">Location</span><span class="FRA">Lieu</span></h2>France,<br>Vélizy-Villacoublay Cedex</div>
+<div style="float:left;width:100px"><h2><span class="ENG">Type</span><span class="FRA">Type</span></h2>Stage</div>
+</div>
+<br>
+<div class="container"><h2><span class="ENG">Company description</span><span class="FRA">Descriptif de l'entreprise</span></h2><div><p>Dassault
+ Systèmes, « The 3DEXPERIENCE Company », offre aux entreprises et aux 
+particuliers les univers virtuels nécessaires à la conception 
+d’innovations durables. Ses solutions leaders sur le marché transforment
+ pour ses clients, la conception, la fabrication et la maintenance de 
+leurs produits. Les solutions collaboratives de Dassault Systèmes 
+permettent de promouvoir l’innovation sociale et offrent de nouvelles 
+possibilités d’améliorer le monde&nbsp; réel grâce aux univers virtuels.
+ Avec des ventes dans plus de 140 pays, le Groupe apporte de la valeur à
+ plus de 200&nbsp;000 entreprises de toutes tailles dans toutes les 
+industries. Pour plus d’informations : www.3ds.com.&nbsp;&nbsp;&nbsp;<br><br>CATIA,
+ SOLIDWORKS, SIMULIA, DELMIA, ENOVIA, GEOVIA, EXALEAD, BIOVIA, NETVIBES,
+ 3D VIA, 3DEXCITE&nbsp;sont des marques déposées de Dassault Systèmes ou
+ de ses filiales aux USA et/ou dans d'autres pays.</p></div></div>
+<div class="container"><h2><span class="ENG">Job description</span><span class="FRA">Descriptif du poste</span></h2><div><p><u><strong>Contexte &amp; Présentation d'équipe</strong></u></p><p>Le
+ stage se déroulera dans l’équipe Data Science qui s’intéresse aux 
+problématiques liées aux environnements de dimension massive mixant le 
+réel et le virtuel et générant des quantités de données complexes 
+nécessitant l’automatisation de leur traitement et de leur analyse afin 
+d’en extraire une connaissance et des modèles à forte valeur ajoutée.</p><p><br><u><strong>Rôle &amp; Objectif</strong></u></p><p>Grâce
+ aux solutions de stockage de données « cloud », nous constatons une 
+prolifération de contenus numériques hétérogènes. Afin de naviguer dans 
+ces contenus, il devient nécessaire de développer des technologies 
+d’analyse automatique.&nbsp; Les techniques basées sur l’apprentissage 
+statistique (Deep Learning en particulier) sont très efficaces pour 
+analyser des données complexes. Malheureusement, ces techniques 
+nécessitent de grandes quantités de données annotées. Cette annotation 
+est très coûteuse et nécessite beaucoup de travail manuel. De plus, 
+plusieurs niveaux d’annotations sont nécessaires selon la complexité des
+ données. Les annotateurs doivent avoir une grande expertise 
+pluridisciplinaire.</p><p>L’annotation semi-supervisée est l’une des 
+pistes privilégiées dans la recherche.&nbsp; Cette technique se base sur
+ des annotations manuelles localisées et d’outils automatiques de 
+propagation de ces annotations.</p><p>Le but de votre stage sera de 
+développer un prototype d’environnement d’annotation de données 
+intégrant des outils automatiques telles que le clustering afin de 
+propager les annotations manuelles à de grandes quantités de données.<br>Vous
+ devrez, dans un premier temps, établir une recherche bibliographique 
+sur le domaine et développer un prototype adapté aux données de Dassault
+ Systèmes. Sous la supervision de votre tuteur, vous devrez déterminer 
+les outils de propagation à intégrer dans le prototype et les 
+implémenter. Enfin, la qualité des annotations sera évaluée sur des 
+données synthétiques et réelles.</p></div></div>
+<div class="container"><h2><span class="ENG">Candidate's profile</span><span class="FRA">Profil recherché</span></h2><div><p>Etudiant(e) en Ecole d'Ingénieurs ou Master universitaire, vous préparez un diplôme de niveau Bac+5 ou Bac+6.<br>Vous vous spécialisez en <strong><em>Mathématiques appliquées, Apprentissage Statistique, Informatique</em></strong>.<br>Vous recherchez un stage de fin d'études de 6 mois.</p><p><br><u><strong>Compétences techniques requises</strong></u></p><p>• Pratique de la programmation Web et du C++<br>• Connaissnces souhaitées en Python<br>• Des bases en apprentissage statistique seront fortement appréciées<br>• Bonne maîtrise de l’anglais à l’oral et à l’écrit pour la rédaction de documentations</p><p><br><u><strong>Qualités professionnelles requises</strong></u></p><p>• Réelle curiosité et motivation pour le sujet<br>• Rigueur et assiduité dans votre travail</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p></p></div></div>
+
+
+<div class="container"><h2><span class="ENG">Type of contract</span><span class="FRA">Type de contrat</span></h2><div><p><u><strong>Contrat proposé</strong></u></p><p>Stage obligatoire de validation de cursus, sous convention de stage.<br>Durée 6 mois maximum, à débuter dès que possible.</p><p><br><u><strong>Localisation géographique</strong></u></p><p>Vélizy-Villacoublay (78 - Yvelines)</p></div></div>
+
+
+
+
+
+
+
+
+</div>
+<div class="container"><h2><span class="ENG">Notre Engagement</span><span class="FRA">Notre Engagement</span></h2><div><p>Dassault Systèmes reconnait et intègre tous les talents. La diversité est notre meilleur atout</p></div></div>
+</div>
+</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="wuid Ln2MOqZX Ln2MOqZX_1475826081509_0_recruitment_details" style="">
+<form action="#" onsubmit="vthis.target='_blank'; this.action = DSX_RECRUITMENT_SETUP.get('liens88') + 'FRA'" method="get" class="buttonStyle3DS">
+<input value="309546" name="multiselect" type="hidden">
+<div id="psft8_btn1" style="display:none">
+<button type="submit">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td>
+<div class="container ENG"><span class="buttonStyle3DS_Title1">APPLY FOR</span><br><span class="buttonStyle3DS_Title2">THIS JOB</span></div>
+<div class="container FRA"><span class="buttonStyle3DS_Title1">POSTULER</span><br><span class="buttonStyle3DS_Title2">A CETTE OFFRE</span></div>
+</td>
+</tr>
+</tbody></table>
+</button>
+</div>
+</form>
+<form target="_blank" action="https://is4.extranet.3ds.com/psc/ERPRD/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL?Page=HRS_APP_LOGIN_EXP&amp;Action=A&amp;SiteId=1&amp;languageCd=FRA" onsubmit="this.target='_blank'; this.action = DSX_RECRUITMENT_SETUP.get('liens91') + 'FRA'" method="get" class="buttonStyle3DS">
+<input value="309546" name="multiselect" type="hidden">
+<div id="psft9_btn1" style="">
+<button type="submit">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td>
+<div class="container ENG"><span class="buttonStyle3DS_Title1">APPLY FOR</span><br><span class="buttonStyle3DS_Title2">THIS JOB</span></div>
+<div class="container FRA"><span class="buttonStyle3DS_Title1">POSTULER</span><br><span class="buttonStyle3DS_Title2">A CETTE OFFRE</span></div>
+</td>
+</tr>
+</tbody></table>
+</button>
+</div>
+</form>
+<style>
+#psft8_btn1 .container, #psft9_btn1 .container { display:none }
+#psft8_btn1 .container.FRA, #psft9_btn1 .container.FRA { display:block }
+</style>
+</div>
+<div class="wuid SbHFFs80 SbHFFs80_1475826081510_0_recruitment_details" style="">
+<div id="psft_version_text" style="display: noxne;">9
+</div>
+<style>
+.FRA { display:inline }
+</style>
+</div>
+</td>
+<td class="cell" id="row_1_cell_2" style="width: 20%;" valign="top" align="center">
+<div class="wuid MwJxye1v MwJxye1v_1475826081511_0_recruitment_details" style="">
+<form action="#" onsubmit="vthis.target='_blank'; this.action = DSX_RECRUITMENT_SETUP.get('liens88') + 'FRA'" method="get" class="buttonStyle3DS">
+<input value="309546" name="multiselect" type="hidden">
+<div id="psft8_btn2" style="display:none">
+<button type="submit">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td>
+<div class="container ENG"><span class="buttonStyle3DS_Title1">APPLY FOR</span><br><span class="buttonStyle3DS_Title2">THIS JOB</span></div>
+<div class="container FRA"><span class="buttonStyle3DS_Title1">POSTULER</span><br><span class="buttonStyle3DS_Title2">A CETTE OFFRE</span></div>
+</td>
+</tr>
+</tbody></table>
+</button>
+</div>
+</form>
+<form action="#" onsubmit="this.target='_blank'; this.action = DSX_RECRUITMENT_SETUP.get('liens91') + 'FRA'" method="get" class="buttonStyle3DS">
+<input value="309546" name="multiselect" type="hidden">
+<div id="psft9_btn2" style="">
+<button type="submit">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td>
+<div class="container ENG"><span class="buttonStyle3DS_Title1">APPLY FOR</span><br><span class="buttonStyle3DS_Title2">THIS JOB</span></div>
+<div class="container FRA"><span class="buttonStyle3DS_Title1">POSTULER</span><br><span class="buttonStyle3DS_Title2">A CETTE OFFRE</span></div>
+</td>
+</tr>
+</tbody></table>
+</button>
+</div>
+</form>
+<style>
+#psft8_btn2 .container, #psft9_btn2 .container { display:none }
+#psft8_btn2 .container.FRA, #psft9_btn2 .container.FRA { display:block }
+</style>
+</div>
+</td>
+</tr>
+</tbody></table>
+<table id="row_2" class="row " width="100%">
+<tbody><tr>
+<td class="cell" id="row_2_cell_0" style="width: 100%;" valign="top" align="center">
+<div class="wuid Ugcyccw7 Ugcyccw7_1475826081512_0_recruitment_details" style=""></div>
+<script type="text/javascript">
+var autoGeneratedId_i5A5mvMU = {"opportunity_details":{"class":"com.exalead.access.feedapi.ResultFeed","context":null,"currentPage":1,"entries":[{"class":"com.exalead.access.feedapi.Entry","content":"V&eacute;lizy-Villacoublay Cedex Dassault Syst&egrave;mes SE France <b class=\"highlight\">309546<\/b> Strat&eacute;gie Stage <b class=\"highlight\">FRA<\/b> 78946 78 2016-07-28 00:00:00.0 FR-V&eacute;lizy, 78, France STAGE &ndash; Ing&eacute;nieur(e) Recherche &ndash; Semi-Supervised Annotation Propagation N &lt;p&gt;Dassault Syst&amp;egrave;mes, &amp;laquo; The 3DEXPERIENCE Company &amp;raquo;, offre aux entreprises et aux particuliers les univers virtuels n&amp;eacute;cessaires &amp;agrave; la conception d&amp;rsquo;innovations durables. Ses solutions leaders sur le march&amp;eacute; transforment pour ses clients, la","facets":[{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":0,"description":"Stage","id":"Top\/jobreq\/job type\/stage","path":"Top\/jobreq\/job type\/stage","score":0,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq job type","name":"Top\/jobreq\/job type","path":"Top\/jobreq\/job type"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":0,"description":"N","id":"Top\/jobreq\/traduction\/n","path":"Top\/jobreq\/traduction\/n","score":0,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq traduction","name":"Top\/jobreq\/traduction","path":"Top\/jobreq\/traduction"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":0,"description":"Vélizy-Villacoublay Cedex","id":"Top\/jobreq\/city\/velizy-villacoublay cedex","path":"Top\/jobreq\/city\/velizy-villacoublay cedex","score":0,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq city","name":"Top\/jobreq\/city","path":"Top\/jobreq\/city"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":0,"description":"FR-Vélizy, 78, France","id":"Top\/jobreq\/posting location2\/fr-velizy, 78, france","path":"Top\/jobreq\/posting location2\/fr-velizy, 78, france","score":0,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq posting location2","name":"Top\/jobreq\/posting location2","path":"Top\/jobreq\/posting location2"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":0,"description":"France","id":"Top\/jobreq\/country\/france","path":"Top\/jobreq\/country\/france","score":0,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq country","name":"Top\/jobreq\/country","path":"Top\/jobreq\/country"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":0,"description":"Stratégie","id":"Top\/jobreq\/job family\/strategie","path":"Top\/jobreq\/job family\/strategie","score":0,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq job family","name":"Top\/jobreq\/job family","path":"Top\/jobreq\/job family"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":0,"description":"78","id":"Top\/jobreq\/location state\/78","path":"Top\/jobreq\/location state\/78","score":0,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq location state","name":"Top\/jobreq\/location state","path":"Top\/jobreq\/location state"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":0,"description":"jobreq","id":"Top\/type\/jobreq","path":"Top\/type\/jobreq","score":0,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"type","name":"Top\/type","path":"Top\/type"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":0,"description":"FRA","id":"Top\/jobreq\/language\/fra","path":"Top\/jobreq\/language\/fra","score":0,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq language","name":"Top\/jobreq\/language","path":"Top\/jobreq\/language"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":0,"description":"78946","id":"Top\/jobreq\/location postal\/78946","path":"Top\/jobreq\/location postal\/78946","score":0,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq location postal","name":"Top\/jobreq\/location postal","path":"Top\/jobreq\/location postal"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":0,"description":"9","id":"Top\/jobreq\/psft version\/9","path":"Top\/jobreq\/psft version\/9","score":0,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq psft version","name":"Top\/jobreq\/psft version","path":"Top\/jobreq\/psft version"}],"id":"id=309546&language=FRA&","image":null,"infos":{"sort":"0","source":"DSX_Recruitment_9","score":"118300","mask":"3","did":"837","slice":"1","contentFp":"2514883755","preferred":"false","collapsed":"false"},"metas":{"site":{"class":"com.exalead.access.feedapi.Meta","displayName":"site","name":"site","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"2514883755","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"2514883755"}]},"type_of_contract":{"class":"com.exalead.access.feedapi.Meta","displayName":"type of contract","name":"type_of_contract","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"&lt;p&gt;&lt;u&gt;&lt;strong&gt;Contrat propos&amp;eacute;&lt;\/strong&gt;&lt;\/u&gt;&lt;\/p&gt;&lt;p&gt;Stage obligatoire de validation de cursus, sous convention de stage.&lt;br \/&gt;Dur&amp;eacute;e 6 mois maximum, &amp;agrave; d&amp;eacute;buter d&amp;egrave;s que possible.&lt;\/p&gt;&lt;p&gt;&lt;br \/&gt;&lt;u&gt;&lt;strong&gt;Localisation g&amp;eacute;ographique&lt;\/strong&gt;&lt;\/u&gt;&lt;\/p&gt;&lt;p&gt;V&amp;eacute;lizy-Villacoublay (78 - Yvelines)&lt;\/p&gt;","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"<p><u><strong>Contrat propos&eacute;<\/strong><\/u><\/p><p>Stage obligatoire de validation de cursus, sous convention de stage.<br \/>Dur&eacute;e 6 mois maximum, &agrave; d&eacute;buter d&egrave;s que possible.<\/p><p><br \/><u><strong>Localisation g&eacute;ographique<\/strong><\/u><\/p><p>V&eacute;lizy-Villacoublay (78 - Yvelines)<\/p>"}]},"text":{"class":"com.exalead.access.feedapi.Meta","displayName":"text","name":"text","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"V&eacute;lizy-Villacoublay Cedex Dassault Syst&egrave;mes SE France <b class=\"highlight\">309546<\/b> Strat&eacute;gie Stage <b class=\"highlight\">FRA<\/b> 78946 78 2016-07-28 00:00:00.0 FR-V&eacute;lizy, 78, France STAGE &ndash; Ing&eacute;nieur(e) Recherche &ndash; Semi-Supervised Annotation Propagation N &lt;p&gt;Dassault Syst&amp;egrave;mes, &amp;laquo; The 3DEXPERIENCE Company &amp;raquo;, offre aux entreprises et aux particuliers les univers virtuels n&amp;eacute;cessaires &amp;agrave; la conception d&amp;rsquo;innovations durables. Ses solutions leaders sur le march&amp;eacute; transforment pour ses clients, la","class":"com.exalead.access.feedapi.MetaValue","highlight":[{"class":"com.exalead.access.feedapi.MetaValue$HighlightInterval","end":60,"start":54},{"class":"com.exalead.access.feedapi.MetaValue$HighlightInterval","end":80,"start":77}],"value":"Vélizy-Villacoublay Cedex Dassault Systèmes SE France 309546 Stratégie Stage FRA 78946 78 2016-07-28 00:00:00.0 FR-Vélizy, 78, France STAGE – Ingénieur(e) Recherche – Semi-Supervised Annotation Propagation N <p>Dassault Syst&egrave;mes, &laquo; The 3DEXPERIENCE Company &raquo;, offre aux entreprises et aux particuliers les univers virtuels n&eacute;cessaires &agrave; la conception d&rsquo;innovations durables. Ses solutions leaders sur le march&eacute; transforment pour ses clients, la"}]},"traduction":{"class":"com.exalead.access.feedapi.Meta","displayName":"traduction","name":"traduction","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"N","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"N"}]},"location_postal":{"class":"com.exalead.access.feedapi.Meta","displayName":"location postal","name":"location_postal","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"78946","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"78946"}]},"open_date":{"class":"com.exalead.access.feedapi.Meta","displayName":"open date","name":"open_date","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"2016-07-28 00:00:00.0","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"2016-07-28 00:00:00.0"}]},"candidate_profile":{"class":"com.exalead.access.feedapi.Meta","displayName":"candidate profile","name":"candidate_profile","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"&lt;p&gt;Etudiant(e) en Ecole d&amp;#39;Ing&amp;eacute;nieurs ou Master universitaire, vous pr&amp;eacute;parez un dipl&amp;ocirc;me de niveau Bac+5 ou Bac+6.&lt;br \/&gt;Vous vous sp&amp;eacute;cialisez en &lt;strong&gt;&lt;em&gt;Math&amp;eacute;matiques appliqu&amp;eacute;es, Apprentissage Statistique, Informatique&lt;\/em&gt;&lt;\/strong&gt;.&lt;br \/&gt;Vous recherchez un stage de fin d&amp;#39;&amp;eacute;tudes de 6 mois.&lt;\/p&gt;&lt;p&gt;&lt;br \/&gt;&lt;u&gt;&lt;strong&gt;Comp&amp;eacute;tences techniques requises&lt;\/strong&gt;&lt;\/u&gt;&lt;\/p&gt;&lt;p&gt;&amp;bull; Pratique de la programmation Web et du C++&lt;br \/&gt;&amp;bull; Connaissnces souhait&amp;eacute;es en Python&lt;br \/&gt;&amp;bull; Des bases en apprentissage statistique seront fortement appr&amp;eacute;ci&amp;eacute;es&lt;br \/&gt;&amp;bull; Bonne ma&amp;icirc;trise de l&amp;rsquo;anglais &amp;agrave; l&amp;rsquo;oral et &amp;agrave; l&amp;rsquo;&amp;eacute;crit pour la r&amp;eacute;daction de documentations&lt;\/p&gt;&lt;p&gt;&lt;br \/&gt;&lt;u&gt;&lt;strong&gt;Qualit&amp;eacute;s professionnelles requises&lt;\/strong&gt;&lt;\/u&gt;&lt;\/p&gt;&lt;p&gt;&amp;bull; R&amp;eacute;elle curiosit&amp;eacute; et motivation pour le sujet&lt;br \/&gt;&amp;bull; Rigueur et assiduit&amp;eacute; dans votre travail&lt;\/p&gt;&lt;p&gt;&amp;nbsp;&lt;\/p&gt;&lt;p&gt;&amp;nbsp;&lt;p&gt;&amp;nbsp;&lt;\/p&gt;&lt;\/p&gt;","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"<p>Etudiant(e) en Ecole d&#39;Ing&eacute;nieurs ou Master universitaire, vous pr&eacute;parez un dipl&ocirc;me de niveau Bac+5 ou Bac+6.<br \/>Vous vous sp&eacute;cialisez en <strong><em>Math&eacute;matiques appliqu&eacute;es, Apprentissage Statistique, Informatique<\/em><\/strong>.<br \/>Vous recherchez un stage de fin d&#39;&eacute;tudes de 6 mois.<\/p><p><br \/><u><strong>Comp&eacute;tences techniques requises<\/strong><\/u><\/p><p>&bull; Pratique de la programmation Web et du C++<br \/>&bull; Connaissnces souhait&eacute;es en Python<br \/>&bull; Des bases en apprentissage statistique seront fortement appr&eacute;ci&eacute;es<br \/>&bull; Bonne ma&icirc;trise de l&rsquo;anglais &agrave; l&rsquo;oral et &agrave; l&rsquo;&eacute;crit pour la r&eacute;daction de documentations<\/p><p><br \/><u><strong>Qualit&eacute;s professionnelles requises<\/strong><\/u><\/p><p>&bull; R&eacute;elle curiosit&eacute; et motivation pour le sujet<br \/>&bull; Rigueur et assiduit&eacute; dans votre travail<\/p><p>&nbsp;<\/p><p>&nbsp;<p>&nbsp;<\/p><\/p>"}]},"job_family":{"class":"com.exalead.access.feedapi.Meta","displayName":"Domain","name":"job_family","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"Strat&eacute;gie","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"Stratégie"}]},"company_introduction":{"class":"com.exalead.access.feedapi.Meta","displayName":"company introduction","name":"company_introduction","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"&lt;p&gt;Dassault Syst&amp;egrave;mes, &amp;laquo; The 3DEXPERIENCE Company &amp;raquo;, offre aux entreprises et aux particuliers les univers virtuels n&amp;eacute;cessaires &amp;agrave; la conception d&amp;rsquo;innovations durables. Ses solutions leaders sur le march&amp;eacute; transforment pour ses clients, la conception, la fabrication et la maintenance de leurs produits. Les solutions collaboratives de Dassault Syst&amp;egrave;mes permettent de promouvoir l&amp;rsquo;innovation sociale et offrent de nouvelles possibilit&amp;eacute;s d&amp;rsquo;am&amp;eacute;liorer le monde&amp;nbsp; r&amp;eacute;el gr&amp;acirc;ce aux univers virtuels. Avec des ventes dans plus de 140 pays, le Groupe apporte de la valeur &amp;agrave; plus de 200&amp;nbsp;000 entreprises de toutes tailles dans toutes les industries. Pour plus d&amp;rsquo;informations : www.3ds.com.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br \/&gt;&lt;br \/&gt;CATIA, SOLIDWORKS, SIMULIA, DELMIA, ENOVIA, GEOVIA, EXALEAD, BIOVIA, NETVIBES, 3D VIA, 3DEXCITE&amp;nbsp;sont des marques d&amp;eacute;pos&amp;eacute;es de Dassault Syst&amp;egrave;mes ou de ses filiales aux USA et\/ou dans d&amp;#39;autres pays.&lt;\/p&gt;","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"<p>Dassault Syst&egrave;mes, &laquo; The 3DEXPERIENCE Company &raquo;, offre aux entreprises et aux particuliers les univers virtuels n&eacute;cessaires &agrave; la conception d&rsquo;innovations durables. Ses solutions leaders sur le march&eacute; transforment pour ses clients, la conception, la fabrication et la maintenance de leurs produits. Les solutions collaboratives de Dassault Syst&egrave;mes permettent de promouvoir l&rsquo;innovation sociale et offrent de nouvelles possibilit&eacute;s d&rsquo;am&eacute;liorer le monde&nbsp; r&eacute;el gr&acirc;ce aux univers virtuels. Avec des ventes dans plus de 140 pays, le Groupe apporte de la valeur &agrave; plus de 200&nbsp;000 entreprises de toutes tailles dans toutes les industries. Pour plus d&rsquo;informations : www.3ds.com.&nbsp;&nbsp;&nbsp;<br \/><br \/>CATIA, SOLIDWORKS, SIMULIA, DELMIA, ENOVIA, GEOVIA, EXALEAD, BIOVIA, NETVIBES, 3D VIA, 3DEXCITE&nbsp;sont des marques d&eacute;pos&eacute;es de Dassault Syst&egrave;mes ou de ses filiales aux USA et\/ou dans d&#39;autres pays.<\/p>"}]},"psft_version":{"class":"com.exalead.access.feedapi.Meta","displayName":"psft version","name":"psft_version","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"9","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"9"}]},"url":{"class":"com.exalead.access.feedapi.Meta","displayName":"url","name":"url","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"id=309546&amp;language=FRA&amp;","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"id=309546&language=FRA&"}]},"city":{"class":"com.exalead.access.feedapi.Meta","displayName":"city","name":"city","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"V&eacute;lizy-Villacoublay Cedex","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"Vélizy-Villacoublay Cedex"}]},"country":{"class":"com.exalead.access.feedapi.Meta","displayName":"Country","name":"country","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"France","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"France"}]},"id":{"class":"com.exalead.access.feedapi.Meta","displayName":"id","name":"id","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"309546","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"309546"}]},"location_state":{"class":"com.exalead.access.feedapi.Meta","displayName":"location state","name":"location_state","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"78","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"78"}]},"source":{"class":"com.exalead.access.feedapi.Meta","displayName":"source","name":"source","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"DSX_Recruitment_9","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"DSX_Recruitment_9"}]},"job_type":{"class":"com.exalead.access.feedapi.Meta","displayName":"Type","name":"job_type","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"Stage","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"Stage"}]},"notre_engagement":{"class":"com.exalead.access.feedapi.Meta","displayName":"notre_engagement","name":"notre_engagement","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"&lt;p&gt;Dassault Syst&amp;egrave;mes reconnait et int&amp;egrave;gre tous les talents. La diversit&amp;eacute; est notre meilleur atout&lt;\/p&gt;","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"<p>Dassault Syst&egrave;mes reconnait et int&egrave;gre tous les talents. La diversit&eacute; est notre meilleur atout<\/p>"}]},"company":{"class":"com.exalead.access.feedapi.Meta","displayName":"company","name":"company","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"Dassault Syst&egrave;mes SE","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"Dassault Systèmes SE"}]},"posting_title":{"class":"com.exalead.access.feedapi.Meta","displayName":"Posting Title","name":"posting_title","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"STAGE &ndash; Ing&eacute;nieur(e) Recherche &ndash; Semi-Supervised Annotation Propagation","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"STAGE – Ingénieur(e) Recherche – Semi-Supervised Annotation Propagation"}]},"language":{"class":"com.exalead.access.feedapi.Meta","displayName":"language","name":"language","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"FRA","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"FRA"}]},"job_description":{"class":"com.exalead.access.feedapi.Meta","displayName":"job description","name":"job_description","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"&lt;p&gt;&lt;u&gt;&lt;strong&gt;Contexte &amp;amp; Pr&amp;eacute;sentation d&amp;#39;&amp;eacute;quipe&lt;\/strong&gt;&lt;\/u&gt;&lt;\/p&gt;&lt;p&gt;Le stage se d&amp;eacute;roulera dans l&amp;rsquo;&amp;eacute;quipe Data Science qui s&amp;rsquo;int&amp;eacute;resse aux probl&amp;eacute;matiques li&amp;eacute;es aux environnements de dimension massive mixant le r&amp;eacute;el et le virtuel et g&amp;eacute;n&amp;eacute;rant des quantit&amp;eacute;s de donn&amp;eacute;es complexes n&amp;eacute;cessitant l&amp;rsquo;automatisation de leur traitement et de leur analyse afin d&amp;rsquo;en extraire une connaissance et des mod&amp;egrave;les &amp;agrave; forte valeur ajout&amp;eacute;e.&lt;\/p&gt;&lt;p&gt;&lt;br \/&gt;&lt;u&gt;&lt;strong&gt;R&amp;ocirc;le &amp;amp; Objectif&lt;\/strong&gt;&lt;\/u&gt;&lt;\/p&gt;&lt;p&gt;Gr&amp;acirc;ce aux solutions de stockage de donn&amp;eacute;es &amp;laquo; cloud &amp;raquo;, nous constatons une prolif&amp;eacute;ration de contenus num&amp;eacute;riques h&amp;eacute;t&amp;eacute;rog&amp;egrave;nes. Afin de naviguer dans ces contenus, il devient n&amp;eacute;cessaire de d&amp;eacute;velopper des technologies d&amp;rsquo;analyse automatique.&amp;nbsp; Les techniques bas&amp;eacute;es sur l&amp;rsquo;apprentissage statistique (Deep Learning en particulier) sont tr&amp;egrave;s efficaces pour analyser des donn&amp;eacute;es complexes. Malheureusement, ces techniques n&amp;eacute;cessitent de grandes quantit&amp;eacute;s de donn&amp;eacute;es annot&amp;eacute;es. Cette annotation est tr&amp;egrave;s co&amp;ucirc;teuse et n&amp;eacute;cessite beaucoup de travail manuel. De plus, plusieurs niveaux d&amp;rsquo;annotations sont n&amp;eacute;cessaires selon la complexit&amp;eacute; des donn&amp;eacute;es. Les annotateurs doivent avoir une grande expertise pluridisciplinaire.&lt;\/p&gt;&lt;p&gt;L&amp;rsquo;annotation semi-supervis&amp;eacute;e est l&amp;rsquo;une des pistes privil&amp;eacute;gi&amp;eacute;es dans la recherche.&amp;nbsp; Cette technique se base sur des annotations manuelles localis&amp;eacute;es et d&amp;rsquo;outils automatiques de propagation de ces annotations.&lt;\/p&gt;&lt;p&gt;Le but de votre stage sera de d&amp;eacute;velopper un prototype d&amp;rsquo;environnement d&amp;rsquo;annotation de donn&amp;eacute;es int&amp;eacute;grant des outils automatiques telles que le clustering afin de propager les annotations manuelles &amp;agrave; de grandes quantit&amp;eacute;s de donn&amp;eacute;es.&lt;br \/&gt;Vous devrez, dans un premier temps, &amp;eacute;tablir une recherche bibliographique sur le domaine et d&amp;eacute;velopper un prototype adapt&amp;eacute; aux donn&amp;eacute;es de Dassault Syst&amp;egrave;mes. Sous la supervision de votre tuteur, vous devrez d&amp;eacute;terminer les outils de propagation &amp;agrave; int&amp;eacute;grer dans le prototype et les impl&amp;eacute;menter. Enfin, la qualit&amp;eacute; des annotations sera &amp;eacute;valu&amp;eacute;e sur des donn&amp;eacute;es synth&amp;eacute;tiques et r&amp;eacute;elles.&lt;\/p&gt;","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"<p><u><strong>Contexte &amp; Pr&eacute;sentation d&#39;&eacute;quipe<\/strong><\/u><\/p><p>Le stage se d&eacute;roulera dans l&rsquo;&eacute;quipe Data Science qui s&rsquo;int&eacute;resse aux probl&eacute;matiques li&eacute;es aux environnements de dimension massive mixant le r&eacute;el et le virtuel et g&eacute;n&eacute;rant des quantit&eacute;s de donn&eacute;es complexes n&eacute;cessitant l&rsquo;automatisation de leur traitement et de leur analyse afin d&rsquo;en extraire une connaissance et des mod&egrave;les &agrave; forte valeur ajout&eacute;e.<\/p><p><br \/><u><strong>R&ocirc;le &amp; Objectif<\/strong><\/u><\/p><p>Gr&acirc;ce aux solutions de stockage de donn&eacute;es &laquo; cloud &raquo;, nous constatons une prolif&eacute;ration de contenus num&eacute;riques h&eacute;t&eacute;rog&egrave;nes. Afin de naviguer dans ces contenus, il devient n&eacute;cessaire de d&eacute;velopper des technologies d&rsquo;analyse automatique.&nbsp; Les techniques bas&eacute;es sur l&rsquo;apprentissage statistique (Deep Learning en particulier) sont tr&egrave;s efficaces pour analyser des donn&eacute;es complexes. Malheureusement, ces techniques n&eacute;cessitent de grandes quantit&eacute;s de donn&eacute;es annot&eacute;es. Cette annotation est tr&egrave;s co&ucirc;teuse et n&eacute;cessite beaucoup de travail manuel. De plus, plusieurs niveaux d&rsquo;annotations sont n&eacute;cessaires selon la complexit&eacute; des donn&eacute;es. Les annotateurs doivent avoir une grande expertise pluridisciplinaire.<\/p><p>L&rsquo;annotation semi-supervis&eacute;e est l&rsquo;une des pistes privil&eacute;gi&eacute;es dans la recherche.&nbsp; Cette technique se base sur des annotations manuelles localis&eacute;es et d&rsquo;outils automatiques de propagation de ces annotations.<\/p><p>Le but de votre stage sera de d&eacute;velopper un prototype d&rsquo;environnement d&rsquo;annotation de donn&eacute;es int&eacute;grant des outils automatiques telles que le clustering afin de propager les annotations manuelles &agrave; de grandes quantit&eacute;s de donn&eacute;es.<br \/>Vous devrez, dans un premier temps, &eacute;tablir une recherche bibliographique sur le domaine et d&eacute;velopper un prototype adapt&eacute; aux donn&eacute;es de Dassault Syst&egrave;mes. Sous la supervision de votre tuteur, vous devrez d&eacute;terminer les outils de propagation &agrave; int&eacute;grer dans le prototype et les impl&eacute;menter. Enfin, la qualit&eacute; des annotations sera &eacute;valu&eacute;e sur des donn&eacute;es synth&eacute;tiques et r&eacute;elles.<\/p>"}]},"posting_location2":{"class":"com.exalead.access.feedapi.Meta","displayName":"posting location2","name":"posting_location2","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"FR-V&eacute;lizy, 78, France","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"FR-Vélizy, 78, France"}]},"TYPE":{"class":"com.exalead.access.feedapi.Meta","displayName":"TYPE","name":"TYPE","values":[{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"jobreq","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"jobreq"},{"HIGHLIGHT_TAG_END":"<\/b>","HIGHLIGHT_TAG_START":"<b class=\"highlight\">","HTMLHighlightedValue":"jobreq","class":"com.exalead.access.feedapi.MetaValue","highlight":null,"value":"jobreq"}]}},"subfeeds":[],"title":"","uris":[]}],"error":null,"facets":[{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":1,"description":"jobreq","id":"Top\/type\/jobreq","path":"Top\/type\/jobreq","score":118300,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"type","name":"Top\/type","path":"Top\/type"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"author","name":"Top\/person\/author","path":"Top\/person\/author"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"extension","name":"Top\/fileattributes\/extension","path":"Top\/fileattributes\/extension"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"mime","name":"Top\/mime","path":"Top\/mime"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"address country","name":"Top\/address\/country","path":"Top\/address\/country"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"Type","name":"Top\/jobreqportal\/job type","path":"Top\/jobreqportal\/job type"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"Domains","name":"Top\/jobreqportal\/job family","path":"Top\/jobreqportal\/job family"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreqportal language","name":"Top\/jobreqportal\/language","path":"Top\/jobreqportal\/language"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreqportal job description","name":"Top\/jobreqportal\/job description","path":"Top\/jobreqportal\/job description"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreqportal psft version","name":"Top\/jobreqportal\/psft version","path":"Top\/jobreqportal\/psft version"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"Countries","name":"Top\/jobreqportal\/country","path":"Top\/jobreqportal\/country"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":1,"description":"78946","id":"Top\/jobreq\/location postal\/78946","path":"Top\/jobreq\/location postal\/78946","score":118300,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq location postal","name":"Top\/jobreq\/location postal","path":"Top\/jobreq\/location postal"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":1,"description":"Stratégie","id":"Top\/jobreq\/job family\/strategie","path":"Top\/jobreq\/job family\/strategie","score":118300,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"Domain","name":"Top\/jobreq\/job family","path":"Top\/jobreq\/job family"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":1,"description":"Vélizy-Villacoublay Cedex","id":"Top\/jobreq\/city\/velizy-villacoublay cedex","path":"Top\/jobreq\/city\/velizy-villacoublay cedex","score":118300,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq city","name":"Top\/jobreq\/city","path":"Top\/jobreq\/city"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":1,"description":"78","id":"Top\/jobreq\/location state\/78","path":"Top\/jobreq\/location state\/78","score":118300,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq location state","name":"Top\/jobreq\/location state","path":"Top\/jobreq\/location state"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":1,"description":"Stage","id":"Top\/jobreq\/job type\/stage","path":"Top\/jobreq\/job type\/stage","score":118300,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"Type","name":"Top\/jobreq\/job type","path":"Top\/jobreq\/job type"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":1,"description":"N","id":"Top\/jobreq\/traduction\/n","path":"Top\/jobreq\/traduction\/n","score":118300,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq traduction","name":"Top\/jobreq\/traduction","path":"Top\/jobreq\/traduction"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq location address1","name":"Top\/jobreq\/location address1","path":"Top\/jobreq\/location address1"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq location address2","name":"Top\/jobreq\/location address2","path":"Top\/jobreq\/location address2"},{"categories":[],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq location address3","name":"Top\/jobreq\/location address3","path":"Top\/jobreq\/location address3"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":1,"description":"9","id":"Top\/jobreq\/psft version\/9","path":"Top\/jobreq\/psft version\/9","score":118300,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq psft version","name":"Top\/jobreq\/psft version","path":"Top\/jobreq\/psft version"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":1,"description":"France","id":"Top\/jobreq\/country\/france","path":"Top\/jobreq\/country\/france","score":118300,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"Country","name":"Top\/jobreq\/country","path":"Top\/jobreq\/country"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":1,"description":"FRA","id":"Top\/jobreq\/language\/fra","path":"Top\/jobreq\/language\/fra","score":118300,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq language","name":"Top\/jobreq\/language","path":"Top\/jobreq\/language"},{"categories":[{"categories":[],"class":"com.exalead.access.feedapi.Category","count":1,"description":"FR-Vélizy, 78, France","id":"Top\/jobreq\/posting location2\/fr-velizy, 78, france","path":"Top\/jobreq\/posting location2\/fr-velizy, 78, france","score":118300,"state":"DISPLAYED"}],"class":"com.exalead.access.feedapi.Facet","count":0,"description":"jobreq posting location2","name":"Top\/jobreq\/posting location2","path":"Top\/jobreq\/posting location2"}],"feedUri":"http:\/\/vpexapeopleb2dsy:10010\/access\/feeds\/recruitment_details\/b3JpZ2luYWxfcT1kYXRhO2RhdGEmcT0zMDk1NDY7MzA5NTQ2Jkw9MTsxJmxhbmd1YWdlPUVORyZsYW5nPUVORw==\/opportunity_details","generator":"com.exalead.access.basefeeds.BusinessItemFeed","id":"opportunity_details","infos":{},"itemsPerPage":10,"lastPage":1,"query":"jobreq_id:309546 AND jobreq_language=FRA","spellCheckSuggestions":[],"startIndex":0,"totalResults":1}};
+</script>
+<script type="text/javascript" src="Search%20-%20CloudView%20360_files/disableEmpty.js"></script>
+<script type="text/javascript" src="Search%20-%20CloudView%20360_files/hide_button.js"></script>
+<script type="text/javascript">function convertYoutube(source)
+{
+var m,
+text = source.innerHTML,
+match = text.match(/\/\/www\.youtube\.com\/embed\/[A-Za-z0-9\-]+/g);
+if ( match && match.length )
+{
+for ( i = 0; i < match.length; i++ )
+{
+text = text.replace(match[i], '<iframe style="display:block; margin:auto" width="420" height="315" src="' + match[i] + '" frameborder="0" allowfullscreen></iframe>');
+}
+}
+match = text.match(/http:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9\-]+/g);
+if ( match && match.length )
+{
+for ( i = 0; i < match.length; i++ )
+{
+m = match[i].match(/http:\/\/www\.youtube\.com\/watch\?v=([^ ]+)/);
+text = text.replace(m[0], '<iframe style="display:block; margin:auto" width="420" height="315" src="//www.youtube.com/embed/' + m[1] + '" frameborder="0" allowfullscreen></iframe>');
+}
+}
+source.innerHTML = text;
+}
+convertYoutube(document.getElementById('youtube'));</script>
+</td>
+</tr>
+</tbody></table>
+</div>
+<script type="text/javascript" charset="utf-8" src="Search%20-%20CloudView%20360_files/preview.js"></script>
+<script type="text/javascript">/* <![CDATA[ */
+/* ]]> */</script>
+
+
+</body></html>

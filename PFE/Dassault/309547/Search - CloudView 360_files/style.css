@@ -1,0 +1,207 @@
+/*
+ * DisplayHits
+ */
+.displayHits {
+	text-align: left;
+}
+
+.displayHits div.entries {
+	background: white;
+}
+.theme_enterprise div.displayHits div.entries {
+	background: transparent;
+}
+
+.displayHits .hit {
+	margin: 5px 0px;
+	vertical-align: top;
+}
+
+.theme_enterprise .displayHits ul li.tabulated {
+	margin: 1px 0;
+	padding: 0;
+}
+
+.theme_enterprise .displayHits div.hitInfo {
+ 	background-color: white;
+	border: 1px solid #CCC;
+	padding: 10px;
+	margin: 0;
+}
+
+.theme_search .displayHits .hit {
+	margin-bottom: 20px;
+}
+
+/* Thumbnail */
+.displayHits .hit td.thumbnail,
+.displayHits .hit div.thumbnail {
+	width: 126px;
+}
+.displayHits .hit div.thumb_right {
+	float: right;
+	margin: 3px;
+}
+.displayHits .hit img.thumbnail,
+.displayHits .hit img.nothumbnail {
+	padding: 2px;
+	border: 1px solid #e0e0e0;
+	max-width: 120px;
+}
+.ie6 .displayHits .hit img.thumbnail,
+.ie6 .displayHits .hit img.nothumbnail {
+	width: 120px;
+}
+.theme_search .displayHits .hit img.thumbnail,
+.theme_search .displayHits .hit img.nothumbnail {
+	margin: 2px;
+	border: 1px solid #aaa;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.displayHits .hit td.thumbnail.right img {
+	margin-left: 5px;
+}
+.theme_enterprise .displayHits .hit td.thumbnail.right img {
+	margin-top: 3px;
+}
+.displayHits .hit td.thumbnail.left img {
+	margin-right: 5px;
+}
+.theme_enterprise .displayHits .hit td.thumbnail.left img {
+	margin-top: 3px;
+	margin-right: 5px;
+}
+
+.theme_enterprise div.displayHits .default h3 {
+	background: transparent;
+	padding: 0;
+	margin-bottom: 10px;
+	border-bottom: 0;
+}
+
+.theme_enterprise div.displayHits .tabulated h3 {
+	margin: 5px 0 0 0;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+}
+.theme_enterprise div.displayHits ul.hits li:first-child h3 {
+	margin-top: 0px;
+}
+.theme_enterprise div.displayHits .hit h3 {
+	margin-bottom: 0px; 
+	border: 1px solid #ccc; 
+	border-bottom: 0px; 
+	background-color: #F0F0F0; 
+	padding: 0px 5px; 
+} 
+
+.displayHits .hit h3:first-letter {
+  text-transform: capitalize;
+}
+
+.theme_enterprise .displayHits .hit h3 .icon,
+.theme_search .displayHits .hit h3 .icon {
+	float: left;
+	margin-right: 5px;
+	margin-top: 1px;
+}
+.theme_enterprise .displayHits .tabulated .hit h3 .icon {
+	margin-top: 3px;
+}
+
+/**
+ * Preview / Download link
+ */
+.theme_enterprise .displayHits h3 span {
+ 	float: right;
+}
+.theme_enterprise .displayHits h3 span a {
+	color: #444;
+}
+ .theme_enterprise .displayHits h3 span {
+ 	padding-left: 9px;
+ 	border-left: 1px solid #ccc;
+ 	margin-left: 9px;
+ }
+ 
+.displayHits .hit div.content {
+	margin: 10px 0px;
+}
+.theme_enterprise .displayHits .hit div.content {
+ 	margin: 0 0 10px 0;
+ }
+.displayHits .hit .metas,
+.displayHits .hit .facets {
+	overflow: hidden;
+}
+.displayHits .hit .facets {
+	margin-top: 5px;
+}
+.theme_enterprise .displayHits .hit .facets {
+	border-top: 1px solid #E0E0E0;
+	padding-top: 2px;
+}
+.theme_enterprise .displayHits .hit .facets .facet {
+	color: #707070;
+}
+
+.displayHits .hit .metas li.meta {
+	word-wrap:break-word;
+}
+
+.displayHits .hit .uri {
+	color: #43A07D;;
+	margin-top: 2px;
+}
+
+/* Tabulated template */
+.displayHits .hit.tabulated table.metas {
+	table-layout: auto;
+	border-spacing: 2px;
+	clear: both;
+}
+/* Thumbnail left using div is only in tabulated template */
+.displayHits .tabulated .hit div.thumb_left {
+	float: left;
+	margin: 3px 6px 0px 0px;
+}
+.displayHits .tabulated .hit table.metas td {
+	vertical-align: top;
+}
+
+.displayHits .tabulated .hit table.metas td.metaName {
+	width: 18%;
+	text-align: left;
+}
+.displayHits .tabulated .hit table.metas td.metaValue,
+.displayHits .tabulated .hit table.metas td.facetValue {
+	text-align: right;
+	width: 30%;
+}
+.displayHits .tabulated .hit table.metas td.metaValue {
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+	word-break: break-all; /* Chrome */
+}
+.firefox .displayHits .tabulated .hit table.metas td.metaValue {
+	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+}
+.theme_enterprise .displayHits .tabulated .hit table.metas .metaName,
+.theme_enterprise .displayHits .tabulated .hit table.metas .facetName {
+	color: #707070;
+}
+.theme_enterprise .displayHits .tabulated .hit .metaValue,
+.theme_enterprise .displayHits .tabulated .hit .facetValue {
+	color: #333;
+	text-align: right;
+}
+
+/** Separator */
+.theme_enterprise .displayHits .hit td.spacing {
+	width: 30px;	
+}
+.theme_enterprise .displayHits .hit tr.separator {
+	height: 5px;
+}

@@ -1,0 +1,41 @@
+/*
+ Fetch
+*/
+.displayHits .hit td.hitInfo h3 span.raw,
+.displayHits .hit td.hitInfo h3 span.preview {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+body.hideOverflow {
+	overflow: hidden;
+}
+#preview_background {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	opacity: 0.3;
+	-moz-opacity:.30;
+	filter:alpha(opacity=30);
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+}
+#preview_iframewrapper {
+	position: fixed;
+	background-color: #FFF;
+	padding: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	z-index: 1000;
+}
+#preview_iframewrapper img.close {
+	position: absolute;
+	top: -14px;
+	right: -14px;
+	cursor: pointer;
+}
+#preview_iframewrapper iframe {
+	border: 1px solid #ccc;
+}

@@ -1,0 +1,30 @@
+@import url(global.css);
+@import url(style.css);
+#footer,.popinWrapper,#sidebarRight ,#rightTools,#breadcrumb{display: none;}
+#header .access-shortcuts{ display:none;}
+
+#header { width: auto; padding:0; margin:0; min-width:100px;}
+#header h1 { float:left;}
+#header #menu{ display:none;}
+#header #searchForm{ display:none;}
+.headerContent {width: 100%;}
+
+#header .loginBox{ display:none;}
+#mainContainer,#sidebarLeft{	width: auto; 
+	margin: 0 0 0 0px;
+	padding: 0; 
+	border: 0;
+	float: none !important;
+	color: black; 
+	background: transparent;}
+.agendaContent {width: 100%;}
+#mainContainer #sidebarLeft{ padding:0;overflow:hidden;  margin:0; clear:both; width: 100%;}
+#mainContainer #sidebarLeft .content { overflow:hidden; width:736px; padding:0;padding-top:20px;  margin:0; clear:both;}
+#mainContainer #sidebarLeft .contentTitle { overflow:hidden; width:100%; padding:0;padding-top:20px;  margin:0; clear:both;}
+#mainContainer #sidebarLeft .contentText { overflow:hidden; width:100%; padding:0;padding-top:20px;  margin:0; clear:both;}
+.col-list { width:120%;}
+.sep-list { width:120%;}
+.col-list li{ width: 310px;}
+.jobFocusPgination { display:none;}
+#mainContainer #sidebarLeft  .breadcrumb { display:none;}
+

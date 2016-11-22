@@ -1,0 +1,1 @@
+function EXPInputField(){}EXPInputField.prototype=function(){return set(new Component,{showErrorMessage:function(a){assert(!1,"ERROR: the subclasses must override showErrorMessage(): "+a)},hideErrorMessage:function(a){assert(!1,"ERROR: the subclasses must override hideErrorMessage(): "+a)},getValue:function(){assert(!1,"ERROR: the subclasses must override getValue(): ")}})}();

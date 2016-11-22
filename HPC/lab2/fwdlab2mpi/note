@@ -1,0 +1,11 @@
+mpirun -np 75 ./display_mpi
+
+module avail
+module load mpi/openmpi-x86_64
+
+%%load library servere
+To run an MPI program, we should specify the communication protocol between
+the processes : export RSHCOMMAND=ssh
+
+
+mpirun -machinefile file -np X executable

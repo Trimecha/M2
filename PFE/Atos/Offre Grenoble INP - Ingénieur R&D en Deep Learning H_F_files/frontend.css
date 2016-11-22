@@ -1,0 +1,189 @@
+/* ----------------------------------------------
+    /!\ Ecrire le fichier en CSS et non en SCSS
+---------------------------------------------- */
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus,
+.box a.default-color-link:hover,
+.txt-color,
+.text--custom,
+.link-theme-hover:hover,
+#position-description .content h2,
+#position-description .content h3,
+#advice-content h2,
+#advice-content h3,
+#search-edit .company .unfollow a,
+.CompanyTop__links a:hover, .generic-position-cell a:hover,
+.CompanyAllPosts h4:hover,
+.value-private-content-banner,
+.filters .filter-group .subfilters span.subfilter.active {
+  color: #4d5357;
+}
+
+.job-offer-container--text a,
+.job-offer-container--text a span,
+.event-description a,
+.event-description a span {
+  color: #4d5357 !important;
+}
+a.no-color-link,
+a.default-color-link {
+  color: #333;
+}
+a.no-color-link:hover {
+  color: #4d5357;
+}
+
+.text-nav,
+.text-nav:hover,
+.text-nav:active,
+.text-nav:visited,
+.text-nav:focus {
+  color: #ffffff;
+}
+
+.title-color { color: #4d7f86; }
+
+.txt-button, .txt-button:hover, .txt-button:visited, .txt-button:focus,
+a.btn.btn-secondary, .btn a.btn-secondary,
+span.btn a,
+#chapters li a:hover, #chapters li a:focus,
+#chapters li a.playing,
+#chapters li a.paused,
+#home .h-rubrique,
+nav.filters a:hover,
+nav.filters a.active,
+.box-number.active, .box-number:hover,
+#col-left .filter.active a,
+.filter.active, .filter:hover,
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus,
+.pagination .current, .pagination .next_page:hover, .pagination .previous_page:hover, .pagination a:hover, .pagination .current:hover,
+.box-filters a.selected, .box-filters a:hover,
+#me .student-selection li:hover,
+.label-partner,
+.label-info,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+#lang a, #lang a:hover, #lang a:active, #lang a:focus,
+#event-box a,
+.dashboard-left-container.is-active,
+.jobteaser-invite-popup .applicant-container .multiselect-container>li.active label,
+.filters .filter-group .filter.active:hover
+{ color: #ffffff; }
+
+ul.list-menu li.active a span.menu-active-arrow {
+  border-color: transparent transparent transparent #4d5357;
+}
+
+ul.news-items .logo img.label-partner-logo,
+li.job-offer-partner-logo .job-offer-logo img,
+li.job-offer .job-offer-logo img:hover,
+#search-edit .company .btn.unfollow,
+.filters .filter-group .filter.active,
+.border--custom
+{ border-color: #4d5357; }
+
+.bg-color,
+nav.filters a.active,
+nav.filters a:hover,
+#col-left .filter.active,
+.filter.active, .filter:hover,
+#chapters li a:hover, #chapters li a:focus,
+#chapters li a.playing,
+#chapters li a.paused,
+.label-info,
+.box-number.active, .box-number:hover,
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus,
+.pagination .current, .pagination .next_page:hover, .pagination .previous_page:hover, .pagination a:hover, .pagination .current:hover,
+.box-filters a.selected, .box-filters a:hover,
+#me .student-selection li:hover,
+ul.list-menu li.active,
+.jt-like:hover, .dashboard-left-container.is-active, .dashboard-left-container.is-active:hover,
+.color--custom-background, .filters .filter-group .filter.active:hover
+{ background-color: #4d5357; }
+
+.bg-color--nav,
+.bg-color--darken:hover {
+  background-color: #343434;
+}
+
+.bg-color--darken,
+.btn-inscription:hover,
+.search-fields.bg-color--darken:hover,
+.btn-inscription:hover,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  background-color: #41474a;
+}
+
+.border-color,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+.jt-like:hover {
+  border-color: #41474a;
+}
+
+.l-nav nav.nav-header ul li { border-color: #343434; }
+
+.l-nav nav.nav-header ul li .main-nav:after
+{ border-bottom-color: #4d5357; }
+
+/* Espace Entreprise
+========================================================================== */
+.CompanyNews__type {
+  color: #4d5357;
+}
+.jt-tabs li.active a,
+.jt-tabs li.active a:focus {
+  border-top-color: #4d5357;
+  color: #4d5357;
+}
+.CompanyTop__nav li:hover,
+.CompanyTop__nav li.active {
+  background: #4d5357;
+  color: #ffffff;
+  border-color: white;
+}
+
+/* Buttons */
+.ghost-green-button,
+.ghost-green-button:visited {
+  border-color: #4d5357;
+  color: #4d5357;
+}
+.ghost-green-button:hover,
+.ghost-green-button:focus,
+.ghost-green-button:active {
+  background: #4d5357;
+  color: #ffffff;
+}
+
+/* links */
+a.handbook__link-item {
+  color: #333;
+}
+a.handbook__link-item.txt-color {
+  color: #4d5357;
+}
+
+/* Panel border top color */
+.panel--border-top {
+  border-top-color: #4d5357;
+}
+
+.btn-text--custom { color: #4d5357; }
+
+.template-toolbox__back-link a {
+  color: #777; //
+}
+
+/* Onboarding Career Center */
+.cc-header {
+  border-top-color: #4d5357;
+}

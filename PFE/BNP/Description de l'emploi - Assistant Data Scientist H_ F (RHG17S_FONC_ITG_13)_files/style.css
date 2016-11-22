@@ -1,0 +1,577 @@
+/* css wide */
+@font-face {
+	font-family: 'BNPPSansLight';
+	font-family:"AvenirNextLTW02-Regular";
+	src:url("../objects/BNPPSansLight?#iefix");
+	src:url("../objects/BNPPSansLight?#iefix") format("eot"),url("../objects/BNPPSansLight.woff") format("woff"),url("../objects/BNPPSansLight.ttf") format("truetype"),url("../objects/BNPPSansLight.svg#BNPPSansLight") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+}
+@font-face {
+	font-family: 'BNPPSansCondv2';
+	src:url("../objects/BNPPSansCondv2?#iefix");
+	src:url("../objects/BNPPSansCondv2?#iefix") format("eot"),url("../objects/BNPPSansCondv2.woff") format("woff"),url("../objects/BNPPSansCondv2.ttf") format("truetype"),url("../objects/BNPPSansCondv2.svg#BNPPSansCondv2") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+}
+@font-face {
+	font-family: 'BNPPRoundedv2';
+	src:url("../objects/BNPPRoundedv2?#iefix");
+	src:url("../objects/BNPPRoundedv2?#iefix") format("eot"),url("../objects/BNPPRoundedv2.woff") format("woff"),url("../objects/BNPPRoundedv2.ttf") format("truetype"),url("../objects/BNPPRoundedv2.svg#BNPPRoundedv2") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+}
+
+body, html {background: #fff !important;color: #000 !important;font-size: 14px !important;padding: 0 !important;width: 100% !important;  margin: 0;font-family: "BNPPRoundedv2",Arial,sans-serif;overflow-x: hidden;}
+
+/* wide */
+.page-heading-header-title, h2.no-change-header-inline, .jobsearch .subtitle, .jobsearch .savetitlepanel .subtitle {font-weight: 400 !important;font-family: "BNPPSansCondv2",Arial,sans-serif;font-size: 35px !important;line-height: 40px;text-transform: uppercase;}
+body .masterbody, .myjobpage .titlelink a, .alert-frame, .sugInput-sug, .callout, .blockpanel .input-textarea, .blockpanel .input-text, .blockpanel .input-smaller input, .blockpanel .input-select, .blockpanel .input-date-time select, .blockpanel .sugInput-input, .blockpanel .entity-value select, .blockpanel .inputtextmulti, .blockpanel .inputtextmulti2 
+{font-family: "BNPPRoundedv2",Arial,sans-serif;font-size: 14px !important;}
+
+body .masterbody, .alert-frame, .sugInput-sug, .callout, .blockpanel .input-textarea, .blockpanel .input-text, .blockpanel .input-smaller input, .blockpanel .input-select, .blockpanel .input-date-time select, .blockpanel .sugInput-input, .blockpanel .entity-value select, .blockpanel .inputtextmulti, .blockpanel .inputtextmulti2
+{width: 950px;margin: 0 auto}
+
+.mainsection .contentlist .ftlcopy.ftlrow h2.no-change-header-inline {font-family: "BNPPRoundedv2",Arial,sans-serif !important;}
+.alert-message-notification-pane {margin: 15px 0;padding: 20px;text-align: center;}
+.alert-button-panel {display: block;overflow: hidden;text-align: center;}
+.alert-title {padding-bottom: 0}
+
+.box, .jobsearch .boxpaneltop, .separatorlink2, .jobsearch .boxpanelbottom, .jobsearch .boxresults, .myaccount .separator, .headersection .headerpanel .userpanel .username, 
+.headersection .headerpanel .userpanel .separator, .boxtrain, .datatrain-tv-left-margin, .datatrain-tv-right-margin, .footeraction .box .boxbottom,
+.headersection .box .boxtop, .headerpanel .separator, .mainsection .calloutimg, #et-ef-content-ftf-gp-j_id_jsp_913830157_15pc8-page_2-sourceTrackingBlock-recruitmentSourceDetailReferalLabel
+{display: none !important}
+.headersection .headerpanel .userpanel.leftpanel {margin: 5px 0 0 155px;width: auto;}
+.jobsearch .linklabel {display: block;margin-top: 10px;padding-left: 0;}
+.headersection .metalink a, .footeraction .footeractionpanel .footergroupactionpanel .metalink2 a, .mainsection .metapanel .metalink a {color: #000;font-size: 15px}
+.mastercontentpanel .blockpanel .metagrouppanel .metapanel {margin: 0 !important;}
+
+.headersection .headerpanel, .headersection .box .boxtop .boxb2-top, .headersection .box .boxtop .boxb3-top, .headersection .box .boxtop .boxb4-top, .footeraction .footeractionpanel, .footeraction .box .boxbottom .boxb4, .footeraction .box .boxbottom .boxb3, .footeraction .box .boxbottom .boxb2, .mainsection .headerpanel, .mainsection .boxtrain .boxtraintop .boxtrainb2-top, .mainsection .boxtrain .boxtraintop .boxtrainb3-top, .mainsection .boxtrain .boxtraintop .boxtrainb4-top, .alert-frame, .shiftavailability .titleshiftpanel, .shiftavailability .titledaypanel,.mainsection .iconpanelupdated, .mainsection .iconcontentpanelupdated, .headersection .link2panel, .mainsection .myjobpage .messagenotepanel, .headerpanel .datatrain-t, .headerpanel .datatrain-tv, .headerpanel .datatrain-tv-left-margin, .headerpanel .datatrain-tv-right-margin, .alert-message-notification, .shiftavailability .allshiftpanel, .shiftavailability .alldaypanel, .myaccount .headerblockpanel, .summary .headerblockpanel, .jobsearch .linkpanel, .jobsearch .boxpanelb2-top, .jobsearch .boxpanelb3-top, .jobsearch .boxpanelb4-top, .processesNotSelectedTaskItem td, .processes-table-link {background-color: #fff;}
+.headersection .headerpanel .linkpanel {margin: 0;padding: 0;position: absolute;right: 0;text-align: right;top: 0;width: auto;}
+.headersection {height: auto !important;clear: both;}
+
+.headersection .headerpanel, .headersection .link2panel, .jobsearch .linkpanel {border-width: 0;}
+.headersection .headerpanel {height: 25px;position: relative;}
+body .masterbody, .alert-frame, .sugInput-sug, .callout, .blockpanel .input-textarea, .blockpanel .input-text, .blockpanel .input-smaller input, .blockpanel .input-select, .blockpanel .input-date-time select, .blockpanel .sugInput-input, .blockpanel .entity-value select, .blockpanel .inputtextmulti, .blockpanel .inputtextmulti2{width: 1170px;margin: 0 auto 30px}
+.headersection .headerpanel {padding: 15px 10px;border-top: 2px solid #13a481;background: url(../images/logo-mobile.png) no-repeat scroll 10px center / 150px auto;width: 1150px}
+html > body .headersection .headerpanel .linkpanel .link {display: inline-block !important;float: left;margin: 10px 0 0 5px;padding: 6px 8px 4px;}
+html > body .headersection .headerpanel .linkpanel .link .grouplink {display: inline-block !important;}
+#dialogTemplate-dialogForm-masterbody, .mastercontentpanel, .mastercontentpanel2, .messagecontentpanel.ftlconfirm {overflow: hidden;background: #f1f1f1 !important;width: 100%}
+.accessmanagement .block-main-border-fix {background: #f1f1f1;border-bottom: 2px solid #13a481;margin-bottom: 25px;padding:20px 20px 70px;}
+#dialogTemplate-dialogForm .link2panel {background: url(../images/home-encart.jpg) no-repeat scroll top center / cover rgba(0, 0, 0, 0) !important;height: 281px !important; padding: 0 !important;}
+#ftlform .link2panel, #et-ef .link2panel, #editTemplateMultipart-editForm .link2panel, #selectorSubView-selectorSubView-selectorForm .link2panel {background: url(../images/encart.jpg) no-repeat scroll top center / cover rgba(0, 0, 0, 0) !important;height: 281px !important; padding: 0 !important;}
+.accessmanagement .page-header {padding: 0;margin-bottom: 20px;}
+.accessmanagement .entity-mandatory-field {margin: 10px 0 0 -2px;padding: 0;}
+.accessmanagement .dialog-columns-2 {padding: 15px 15px 15px 0;width: 50%;}
+.myaccount .title, .myaccount .titleaction, .mainsection .titlepage, .accessmanagement .page-heading-header-title, .summary .titleblock {color: #000;font-family: "BNPPSansCondv2",Arial,sans-serif;font-size: 35px;font-weight: 400 !important;text-transform: uppercase;clear: both;}
+.resultstitlepanel .no-change-header .subtitle {color: #000 !important;font-family: "BNPPSansCondv2",Arial,sans-serif;font-size: 35px !important;font-weight: 400 !important;text-transform: uppercase;clear: both;}
+.accessmanagement .entity-mandatory-field, .myaccount .text, .shiftavailability .shiftcontentpanel, .shiftavailability .daycontentpanel, .alert-message, .accessmanagement .page-header-text {color: #939393; display: inline-block;font-style: normal;font-weight: 400;font-size: 14px; line-height: 22px;}
+
+label, #et-ef-content-myAccountPersonalInfoEditContent-cfrmsub-frm-fc90 {color: #000 !important;display: block !important;font-size: 16px !important;margin: 5px 0 !important;padding: 0 !important;}
+input[type="text"], input[type="password"], select {margin:0 auto 15px !important;border: 0 !important;color: #000 !important;border-radius:0 !important;display: inline-block;font-size: 14px !important;height: 20px;padding: 5px 1% 4px 5px; font-family: "BNPPRoundedv2",Arial,sans-serif !important;width: 98% !important;}
+input[type="button"] {display: block !important;-webkit-border-radius: 3px 3px 3px 3px !important;border-radius: 3px 3px 3px 3px !important;text-align: center; min-width: 15%;padding: 15px 0 13px !important;float: left !important;margin: 0 20px 0 0 !important; background: #1ca25e !important;
+border: 0 none !important;color: #ffffff !important;font-size: 14px !important;font-family: "BNPPRoundedv2",Arial,sans-serif !important;-webkit-transition: all 0.3s ease-out;transition: all 0.3s ease-out;}
+input[type="button"]:hover {opacity: 0.8;filter : alpha(opacity=80);}
+.iam-block-main-border-fix {margin: 10px auto 0;width: 100%;display: inline-block;}
+.iam-block-main-border-fix .iam-link-small-no-text-decoration {float: left; margin-bottom: 3px;}
+.iam-block-main-border-fix .iam-link-small-no-text-decoration a {text-decoration: none;color: #000;font-size: 14px;margin-right: 10px}
+
+.accessmanagement .button-group-center {padding: 0;text-align: left;}
+form {margin-bottom: 15px;overflow: hidden;}
+.accessmanagement .dialog-columns-openid {display: block;margin-left: 10px;padding: 30px 15px}
+
+button,input,select,textarea{font-size:100%;vertical-align:middle;margin:0;}
+button,input{overflow:visible;line-height:normal;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;}
+label,select,button,input[type=button],input[type=reset],input[type=submit],input[type=radio],input[type=checkbox]{cursor:pointer;}
+
+.headersection .metalink.metalinkinline, .headersection .headerpanel .metapanel .metagrouppanel {/*height: 23px;text-align: left;width: 25px;*/}
+.jobsearch .tablelist1 {display: inline-table;}
+.headersection .headerpanel .rightpanel {position: absolute;left: 34.5%;top: 18px;}
+
+#topNavInterface .link2panel li {transition: all 0.2s ease 0s;border: 0 none;padding: 0;border-right: 1px solid #aeaca9;float: left;font-family: "BNPPSansCondv2",Arial,sans-serif;background-color: rgba(255, 255, 255, .7);font-size: 18px;text-align: center; width: 33.27%;}
+#topNavInterface .link2panel li:last-child, #topNavInterface .link2panel li:nth-last-child(2) {border-right: 0}
+#topNavInterface .link2panel li span,#topNavInterface .link2panel li a {transition: all 0.2s ease 0s;color: #000;display: block;height: auto;margin: 0 auto;padding: 20px 0;text-align: center; text-transform: uppercase;}
+#ftlform .headersection .link2panel .selectedlink2, #topNavInterface .link2panel li span:hover,#topNavInterface .link2panel li a:hover {background-color: rgba(241, 241, 241, 1);}
+
+.jobsearch .mastercontentpanel, .mainsection .searchresults, .myaccount, .myjobpage .mastercontentpanel2, #requisitionDescriptionInterface,.messagecontentpanel.ftlconfirm,
+#requisitionUnavailableInterface, #editTemplateMultipart-editForm .mastercontentpanel, #et-ef-content-ftf-mastercontentpanel, #selectorSubView-selectorSubView-selectorForm-mainsection .mastercontentpanel, #et-ef-content-flowTemplate-flowTemplateMainPanel .mastercontentpanel2, #requisitionDescriptionPrintableInterface {padding: 25px 3% !important;margin: 0 auto;width:94%;border-bottom: 2px solid #13a481;border-left: 0;border-top: 0;border-right: 0;background: #f1f1f1}
+.mastercontentpanel2 .messagecontentpanel.ftlconfirm {margin: 15px 0 30px !important;padding: 25px 0 !important;}
+select {color: #484848 !important;width: 100% !important;height: 32px;padding: 5px 1% 4px 5px;}
+h2.no-change-header-inline {clear: both;display: block;}
+h2.no-change-header-inline span {color: #000 !important}
+#basicSearchHeaderInterface .columnfull {padding: 0;float: left;width: 100%;}
+.jobsearch .titlemetapanel1 {margin: 0;padding: 0; height: 45px;}
+.mainsection .searchresults .resultstitlepanel  {margin: 0;padding: 0;}
+.jobsearch .titlemetapanel {display: block;margin: 0;padding: 0;}
+.mainsection .tablelist {width: 100%; display: inline-table;}
+#topScroll #basicSearchHeaderInterface .tablelist, #topScroll #advancedSearchHeaderInterface .tablelist {display: block}
+.jobsearch .titlepanel {display: inline-flex;margin: 0;padding: 0;}
+.jobsearch, .requisitionDescription {background: #f1f1f1 !important}
+.mainsection .metalink2 a, .mainsection .pagerpanel .pagersectionpanel .pagerlink a, .blockpanel .loc-action-btn a, .mainsection .textlink a, .myaccount .metalink2 a, .accessmanagement .link-small a, .blockpanel .list .listpanel .metalink2 a, .footersection .poweredbytaleolink a, .messagecenter .toolbar a, .messagecenter .list-column a, .alert-button-panel a, .messagecenter .section-name a {color: #1ca25e;font-size: 16px;}
+.jobsearch .column {width: 50%}
+.linkpanel {background: transparent !important;}
+.jobsearch .selectedlink {background-color: transparent; border: 0 none !important;color: #000 !important;font-size: 16px !important;margin: 5px 0 !important;padding: 0 !important;text-decoration: none;}
+.jobsearch .contentdatapanel {background: transparent !important;border: 0 none;display: block;float: left;margin: 0;padding: 0;width: 100%;overflow: hidden;}
+.jobsearch .linkpanel,.jobsearch .resultpropertiescontentpanel {border: 0 none;clear: both;margin: 0;overflow: hidden;padding: 0;}
+.jobsearch .addjobfieldaction .action a {font-weight: 400;background: url("../images/plus.svg") no-repeat scroll left center rgba(0, 0, 0, 0);color: #1ca25e;display: inline-block;font-size: 14px;height: 26px;padding: 10px 0 0 35px;text-indent: 0;width: auto;}
+.contentdatapanel .action a {background: url(../images/supprimer.svg) no-repeat scroll center center rgba(0, 0, 0, 0);display: block;height: 26px;padding: 0;text-indent: -99999px;width: 26px;position: relative;z-index: 500000}
+.jobsearch .labelcontent {clear: both;display: block;}
+.jobsearch .contentdatapanel .ftlmulti {clear: both;display: block;float: left;width: 95%;margin-right: 5px;}
+.jobsearch .contentdatapanel .action {display: block;float: left;}
+
+.jobsearch .addjobfieldaction {text-align: left;}
+.basicSearchHeaderInterface {border-bottom: 2px solid red}
+.jobsearch .resultpropertiescontentpanel {padding: 25px 0;}
+
+.mainsection .searchresults .resultstitlepanel .subtitle {color: #010101;font-size: 16px;}
+.mainsection .contentlist .ftlcopy.ftlrow {background: #fff;}
+.mainsection .iconcontentpanel {height: auto;overflow: hidden;padding: 3% 0;width: 100%;}
+.columnfull .iconpanel, .mainsection .iconpanelupdated {padding: 24px 4px 0;}
+.jobcontentpanel span.text, .mainsection .jobposted, .mainsection .jobpostedinline {font-size: 16px;display: inline;margin-bottom: 10px}
+.mainsection .jobcontentpanel .metalink2 a{float: left;padding: 3px 0}
+.mainsection .jobcontentpanel .metalink2 a, .mainsection .titlelink a:hover, .jobsearch .titlelink a:hover {color: #009d6b;text-decoration: underline;}
+.mainsection .jobcontentpanel .metalink2 a {font-size: 18px !important;text-transform: uppercase;color: #1ca25e !important}
+.mainsection .titlelink a, .jobsearch .titlelink a {color: #1ca25e;font-size: 18px !important;font-style: normal;font-weight:400 !important;line-height: 23px;margin-bottom: 5px;text-decoration: none;text-transform: uppercase;}
+.footeraction .footeractionpanel {border: 0;padding: 0;overflow: hidden;height: auto;background: transparent !important;}
+.footeraction .footeractionpanel .footergroupactionpanel {margin: 0;padding: 0 3%;width: 94%;}
+.mainsection .mastercontentpanel3 .editablesection .contentlinepanel {display: block;}
+
+#dialogTemplate-dialogForm-defaultCmd, .headersection .metalink a:hover, .footeraction .footeractionpanel .footergroupactionpanel .metalink2 a:hover, .mainsection .metapanel .metalink a:hover {color: #1ca25e}
+.jobsearch .subtitle, .jobsearch .savetitlepanel .subtitle {display: block;margin: -10px 0 20px;}
+.mainsection .columnfull {padding: 0;float: left; width: 70%}
+#selectorSubView-selectorSubView-selectorForm-mainsection .columnfull {width: 100%;float: none;display: block;}
+.mainsection .column165, .messagecenter .column165 {float: right;vertical-align: top;width: 25%;}
+.column165 .helppanel {display: block;width: 100%;}
+.message-notification {margin: 0;}
+.messagenotepanel, .message-notification, .messagecontentpanel {background-color: transparent;border: 0 none;color: #dd0101;margin-bottom: 20px;padding: 0;}
+.message-title, .messagetitle, .message-text, .messagetext, .messagecontentpanel .text, .error-label {color: #dd0101;line-height: 22px}
+#advancedSearchInterface, #advancedSearchInterface .columnfull, .advancedSearchHeaderInterface .columnfull {width: 100%}
+
+.column165 .helppanel .helptitle,.column165 .helppanel .helplabel {padding: 0 0 0 15px;line-height: 20px;}
+.column165 .helppanel .helpsubtitle {padding-left: 15px;color: #000}
+.blockhelppanel .no-change-header, #editTemplateMultipart-editForm-content-ftf-mastercontentpanel .blockhelppanel h3 {display: block;padding-top: 10px;}
+#editTemplateMultipart-editForm-content-ftf-mastercontentpanel .blockhelppanel h3:first-child {padding: 0;}
+.jobsearch .savepanel .descriptionpanel .text, .jobsearch .separator, .jobcontentpanel .separator {margin-right: 10px;margin-left: 10px;}
+.jobcontentpanel .separator {float: left;}
+html > body .headersection .headerpanel .linkpanel .selectedlink {float: left;border: 1px solid silver;margin: 10px 0 0 10px;}
+#dialogTemplate-dialogForm #dialogTemplate-dialogForm-masterbody.mainsection {width: auto;}
+.accessmanagement .nav-btn5 {float: right;padding: 9px 10px 5px;margin-top: 10px;z-index: 50000}
+.nav-btn {z-index: 500000}
+.mainsection .titlepage {margin-bottom: 15px;}
+.mainsection .iframepanel {padding: 20px;margin-bottom: 30px;line-height: 22px;}
+.mainsection .mastercontentpanel, .mainsection .mastercontentpanel2 {/*border: 0;padding: 0;*/}
+#dialogTemplate-dialogForm .accessmanagement .masterbody #dialogTemplate-dialogForm-masterbody .mainsection .mastercontentpanel{width: auto;}
+
+#et-ef #et-ef-masterbody .mainsection span.mastercontentpanel {padding: 0;border-bottom: 2px solid #13a481;border-left: 0;border-top: 0;border-right: 0;}
+#dialogTemplate-dialogForm #dialogTemplate-dialogForm-masterbody.mainsection .blockpanel .separatorpanel,
+html > body .headersection .headerpanel .linkpanel .link, #ftlhiddenframe {display: none;}
+
+.blockpanel .entity-label, .menuHierarchy label, .entity-checkbox-label, .summary .label, .myaccount .label, .mainsection .label, .accessmanagement .entity-label-mandatory {line-height: 22px;margin-bottom: 5px;}
+.accessmanagement .entity-label {display: inline-block !important;}
+.accessmanagement .dialog-columns input {display: block !important;margin: 0 !important;width: 30% !important;}
+
+#et-ef .headersection .headerpanel .linkpanel .link {float: left;}
+
+/* mon compte */
+.myaccount .tablelist .columnfull, .myaccount .infoblockpanel {padding: 0;}
+.myaccount .blockpanel {border: 0 none;margin: 15px 0;padding: 15px;background: #fff}
+.myaccount {background:#f1f1f1 !important;display: block;overflow: hidden;padding:20px;/*width: 1130px;*/}
+.myaccount .headerblockpanel {display: block;padding: 0;}
+.myaccount .subtitle, .summary .subtitle, .summary .titleblock {line-height: 22px;font-family: "BNPPRoundedv2",Arial,sans-serif;color: #000;font-size: 14px;font-style: normal;font-weight: 400;}
+.myaccount .blockpanel .separatorpanel {border-bottom: 1px solid #706f6d;display: block;margin: 0 0 20px;padding-bottom: 10px;}
+.myaccount .firstcolumn .labelpanel {margin: 0 15px 0 0;}
+.myaccount .label {color: #9a9a9a !important;font-size: 16px !important;}
+.myaccount .subtitleblock {color: #000 !important;font-weight: 400 !important;}
+.myaccount .subtitleblockpanel, .summary .subtitleblockpanel {border-bottom: 1px solid #706f6d;display: block;margin: 0 0 20px;padding-bottom: 10px;width: 100%;}
+.myaccount .headerblockpanel .metalink2 a {margin-left: 15px;}
+.myaccount .contentblockpanel, .myaccount .value, .mainsection .jobcontentpanel, .column165 .legendpanel .legendtitle {font-size: 16px !important}
+.myaccount .titleblock {color: #000 !important;display: inline;font-size: 16px !important;margin: 15px 0 0;text-transform: uppercase;}
+
+.mainsection .searchresults .listingperpagepanel .label {/*height: 60px;line-height: 60px*/}
+
+.accessmanagement .dialog-columns table {width: 100%}
+.mainsection .myjobpage .statuspanel .text {padding: 10px 0;}
+.jobsearch .savecontentpanel {background:#fff !important;border: 0 none !important;padding: 25px 20px !important; margin-bottom: 15px;}
+.column165 .helppanel .helplink a {margin: 15px}
+
+.ftlboxfloat {background:#fff;float: none;height: auto !important;margin: 0 0 20px 0;overflow: hidden;padding: 2%;width: 96% !important;}
+.searchLookup input, .blockpanel .input-checkbox {float: left;margin-right: 10px;}
+html > body .jobsearch .contentdatapanel {margin-top: 10px;}
+.jobsearch .contentdatapanel .searchLookup {margin-bottom: 10px;padding-left: 2px}
+
+/* selection form checkbox */
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {left: -9999px;}
+[type="checkbox"]:not(:checked) + label:before, [type="checkbox"]:checked + label:before {background:#f1f1f1;border: 1px solid #aaa;content: "";height: 16px;left: 0;position: absolute;top: 0;width: 16px;}
+[type="checkbox"]:not(:checked) + label:after {opacity: 0;transform: scale(0);}
+[type="checkbox"]:not(:checked) + label:after, [type="checkbox"]:checked + label:after {color: #fff;background: #1ca25e; height: 17px;content: "✔";font-size: 14px;padding: 0 3px; left: 0;line-height: 1.6;position: absolute;top: 0;transition: all 0.2s ease 0s;}
+[type="checkbox"]:not(:checked) + label, [type="checkbox"]:checked + label {cursor: pointer;padding-left: 25px;position: relative;padding-top: 2px !important}
+
+.blockpanel .custom-form-columns {/*width: 32%;padding: 0;*/}
+select, .blockpanel .custom-form-columns input, .blockpanel .custom-form-columns select, .myaccount .inputtext300, .mainsection .inputselect, .jobsearch .savepanel .inputtext, .inputtextmulti, .inputtextmulti3 {border: 1px solid #999999 !important;display: inline;border-radius: 0 !important; box-shadow:none !important;}
+.blockpanel fieldset {border: 0 none;margin: 0;}
+.fs-508-inline {display: inline;float: left;width: 100%;}
+.myaccount .tablelist .columnfull > .buttonpanel {display: flex;margin: 0 0 30px;}
+
+#et-ef-content-myAccountAuthInfoEditContent-outputText_sectionName_message {display: block;font-size: 16px;margin-bottom: 15px;text-transform: uppercase;}
+.myaccount .tablelistindent .entity-checkbox-label {display: inline;padding: 1px 0 0 25px !important;}
+.myaccount .blockpanel .tablelistindent .separatorpanel, .mainsection .inputselect  {margin: 0 0 5px !important}
+
+.searchresults .sortbypanel {margin: 20px 0;}
+#dialogTemplate-dialogForm-login-register {background: transparent !important;color: #1ca25e !important;text-decoration: underline;}
+
+.messagewarningpanel {background-color: transparent;border: medium none;overflow: hidden;padding: 0;margin-bottom: 15px;}
+.messagewarningpanel a {display: block;margin-bottom: 15px;}
+
+.mainsection .myjobpage .descriptionpanel .text {line-height: 23px;}
+.footeraction {margin: 0 auto;padding: 25px 0;width: 100%;overflow: hidden;background: #f1f1f1}
+.footeraction .footeractionpanel .footergroupactionpanel {margin: 0;padding: 0 3%;width: 94%;}
+.mainsection .myjobpage .messagenotepanel {margin: 0 0 20px;padding: 15px;}
+.mainsection .descriptionpanel {margin: 0;}
+.jobsearch .mainsection .descriptionpanel {width: 1100px;}
+
+#requisitionDescriptionInterface .ftllist .no-change-header {clear: both;display: block;font-size: 16px;margin: 40px 0 0;}
+
+.mainsection .requisitionDescription .columnfull {padding-right: 0;vertical-align: top;width: 100%;}
+#requisitionDescriptionInterface .mastercontentpanel3 .editablesection .contentlinepanel:first-child {background:#fff;border-bottom: 2px solid #13a481;border-top: 2px solid #13a481;display: block;padding: 20px 20px 10px;}
+ #requisitionDescriptionInterface .mastercontentpanel3 .editablesection .contentlinepanel .text {}
+.callout {margin: 0}
+.requisitionDescription #requisitionDescriptionInterface .metagrouppanel {overflow: hidden;}
+.requisitionDescription #requisitionDescriptionInterface .metagrouppanel .metapanel .metalink2 a {background:#fff;display: block;float: right;padding: 13px 15px 9px;}
+.requisitionDescription #requisitionDescriptionInterface .metapanel2 .metalink2 a {float: left;}
+
+/* postulation */
+.mainsection .headerpanel {border: 0 none;padding: 0;margin-top: 20px;}
+.mainsection .headerpanel .tabledatatrain {font-size: 13px;}
+.datatrain-table .datatrain-wrapper {font-size: 13px;overflow: hidden;width: 79%;}
+.datatrain-table .datatrain-tv {border: 0 none;width: 93% !important}
+.datatrain-table .datatrain-tv ul {padding: 0;left: 0 !important}
+.datatrain-table .datatrain-focus, .datatrain-table .datatrain-no-focus {padding: 0.75em 0.5em;width: auto;}
+.datatrain-table .datatrain-wagon {width: 8em;}
+.mainsection .buttonpanel-container .on-the-left, .headersection .headerpanel .leftpanel, .footeraction .footeractionpanel .leftpanel {width: 100%}
+.mainsection .buttonpanel-container .inputbutton {min-width: 19% !important;}
+.mainsection .buttonpanel-container {height: auto;overflow: hidden;}
+.datatrain-left-shifter, .datatrain-right-shifter {padding-top: 2em;margin: 0 5px}
+.datatrain-table {margin: 35px 0;}
+#editTemplateMultipart-editForm-content-ftf-mastercontentpanel, #et-ef-content-ftf-mastercontentpanel {margin: 25px auto !important}
+
+.mainsection .textindentpanel, .mainsection .tablelistindent {background:#fff;display: block;padding: 2%;width: 96%; margin: 20px 0 !important}
+.mainsection .tablelistindent {margin-bottom: 0 !important;min-height: 35px;}
+.mainsection .tablelistindent .text-inline {margin-left: 5px;line-height: 22px;}
+.partner-options.import .fs-508 {float: left;height: auto;line-height: 45px;margin: 0 5px 0 0;}
+.blockpanel .textindentpanel .labelnote {line-height: 22px;}
+.mainsection .textindentpanel .inputtext300 {border: 1px solid #999999 !important;font-size: 16px !important;margin-bottom: 15px;}
+.partner-options.import {background:  #fff;border-bottom: 1px solid #666;clear: both;float: left;margin: 0 0 30px;padding: 2%;width: 96%;}
+#editTemplateMultipart-editForm-content-ftf-mastercontentpanel .descriptionpanel{margin-bottom: 30px}
+#editTemplateMultipart-editForm-content-ftf-mastercontentpanel .blockpanel .separatorpanel{display: none;}
+#editTemplateMultipart-editForm-content-ftf-mastercontentpanel .mainsection .titlepage { margin-bottom: 0;}
+.blockpanel .fs-508-block {padding-left: 0;}
+.textindentpanel .inputtextmulti2, .inputtextmulti3 {width: 100%; border: 1px solid #f1f1f1 !important;border-radius: 0 !important}
+.messageerrorpanel, .message-error {background-color: transparent;border: medium none;margin: 0 0 20px;padding: 0;}
+.mainsection .flowstatus {display: inline-block;width: 17%;}
+.blockpanel .title, .mainsection .infojob, .mainsection .infopanel .metalink2 a, .blockpanel .list-header .subtitle, .blockpanel .entity-title, .myaccount .subtitleblock, .summary .subtitleblock, .shiftavailability .titlesection, .alert-title, .mainsection .subtitle, 
+.jobsearch .action a, .blockpanel .metalink a, .mainsection .infopanel .metalink2 a {font-weight: 400 !important;}
+.blockpanel .entity-value span, .blockpanel .no-change-header .title {font-size: 16px !important;color: #1ca25e !important;font-weight: 400;line-height: 22px;}
+.blockpanel .no-change-header .title {display: inline-block;font-size: 18px !important;margin-top: 10px;text-transform: uppercase;}
+.mandatory-img, .requiredimg, .iam-entity-label-mandatory {margin: 0 5px 0 0;}
+.mainsection .entity-select-action5, .blockpanel .input-date-time-text, .blockpanel .entity-select-action {color: #1ca25e !important;font-size: 14px;margin-bottom: 15px}
+.blockpanel .entity-label{color: #000;font-size: 16px;margin-bottom: 5px;clear: both;}
+.blockpanel .separatorhorizontalpanel {border-width: 0 0 1px;margin: 20px 0;padding: 0;}
+.legend-pos {margin: 0;padding: 0}
+.legend-pos .descriptionpanel {margin: 15px 0 0 !important;}
+.blockpanel .descriptionpanel .text {font-size: 14px}
+.mainsection .textindentpanel {margin-top: -20px;}
+.alert-frame-margin-top {margin: 0 auto !important;padding: 15px;overflow: hidden;position: relative;text-align: center;width: 980px !important;}
+.no-change-header {display: block;clear: both;}
+.savecontentpanel .descriptionpanel .text {margin: 0 0 15px !important}
+.list-column-value {font-size: 16px;}
+.list-column {padding: 10px !important;}
+.section-name {display: block;margin: 30px 0 5px;padding: 0;}
+.filter {margin: 20px 0 40px;}
+.list-structure {margin: 0;}
+.pager-summary, .pager-button-group, .pager a, .pager a:link, .pager a:visited, .entity-label {font-size: 14px; font-family: "BNPPRoundedv2",Arial,sans-serif; font-weight: 400;}
+.entity-label {color: #000;}
+#selectorSubView-selectorSubView-masterbody .no-change-header {display: block;margin-top: 30px;}
+#editTemplateMultipart-editForm-content-ftf-gp-j_id_jsp_913830157_15pc7-page_0-AttachedFilesBlock-attachFileCommand {margin: 0 0 25px !important;min-width: 30%;padding: 10px !important;}
+.nolabelvaluepanel .attachment-list {background: #fff;margin: 20px 0;width: 100%;}
+.nolabelvaluepanel .list-evenrows, .nolabelvaluepanel .list-oddrows {height: 30px;}
+.nolabelvaluepanel .attachment-list-column, .nolabelvaluepanel  .attachment-list-header {padding: 10px;}
+.inputtextgrouppanel .inputtextmulti2, .inputtextmulti, .inputtextmulti3 {border: 1px solid #999999 !important;margin: 15px 0 0 !important;padding: 1%;width: 98% !important;border-radius: 0 !important}
+.jobsearch .contentgrouppanel .inputtext {border: 1px solid #999999 !important;}
+#et-ef-content-ftf-mastercontentpanel .summary .columnfull {float: none;width: 100%;}
+.summary .blockpanel {background: #fff;margin-top: 20px;padding: 15px;}
+.summary .contentblockpanel {margin: 0 0 15px;}
+.summary .headerblockpanel {padding: 0;}
+.summary .groupcontentpanel {margin: 0 0 20px;padding: 0;}
+.summary .contentblockpanel .labelpanel {margin: 0 15px 0 0;}
+.summary .groupcontentpanel h3 span {color: #1ca25e}
+.summary .contentblockpanel .nolabelvaluepanel {margin: 0}
+.action-bar a span {font-size: 14px;color: #1ca25e}
+.headersection .headerpanel .metapanel .metagrouppanel .separator {display: inline !important;margin: 0 5px;}
+#et-ef-content-flowTemplate-mastercontentpanel2 .blockpanel .metagrouppanel .metapanel {position: absolute;right: 0;z-index: 50000;padding: 13px 15px 9px;background: #fff}
+#et-ef-content-flowTemplate-mastercontentpanel2 .blockpanel  .metagrouppanel {overflow: visible !important;position: relative;}
+.blockpanel .entity-value, .blockpanel .entity-value select {max-width: 350px;}
+#requisitionListInterface .jobcontentpanel .metalink2 a {width: auto; /*margin-bottom: 10px;*/}
+.editablesection h2.no-change-header-inline {clear: both;display: inline-block;font-size: 14px !important;font-weight: 700 !important;line-height: 22px;text-transform: none;}
+.editablesection h2.no-change-header-inline span {font-weight: 700 !important;   margin-top: 20px;}
+.editablesection h2.no-change-header-inline .inlinepanel {display: block;}
+.mainsection .editablesection .inlinepanel .subtitle {display: block;font-family: "BNPPRoundedv2",Arial,sans-serif;font-size: 16px !important;font-weight: 400 !important;}
+.command-link-visited {display: block;/*margin-top: 20px;*/}
+.alert-frame-margin-top .alert-text .box{display: block !important}
+.alert-frame-margin-top .alert-text {margin: 10px 0 0;}
+.alert-frame-margin-top .alert-text .alert-text{margin: 0;}
+.inputtextmulti3 {margin:0 !important;border-radius: 0 !important}
+.questionnaire fieldset .textindentpanel {background:transparent;margin: 0 !important;padding: 0;}
+.questionnaire fieldset .textindentpanel .inputtextmulti3 {font-family: "BNPPRoundedv2",Arial,sans-serif}
+.mainsection .iconcontentpanelupdated, .mainsection .iconpanelupdated {border: 0}
+.mainsection .iconcontentpanelupdated {border: 0 none;overflow: hidden;padding: 3% 0;vertical-align: top;width: 100%;}
+.tablelist .columnfull .ftllist .ftlcopy .iconcontentpanel .jobcontentpanel div.inlinepanel {display: table;}
+
+#et-ef-content-ftf-gp-j_id_jsp_913830157_15pc8-page_1-cfrm-cfrmsub-frm-fc3 {width: 100%}
+
+.processesTaskMainDiv {}
+.processesTaskMainDiv .message-list-content {}
+.processesTaskMainDiv .message-list-content .mastercontentpanel .mainsection {}
+.processesTaskMainDiv .message-list-content .mastercontentpanel .mainsection {}
+.processesTaskMainDiv .message-list-content .mastercontentpanel .mainsection .processesTaskTable {}
+.processesTaskMainDiv .message-list-content .mastercontentpanel {}
+.processesTaskMainDiv .processesTaskTable tbody {}
+.processesTaskMainDiv .processesTaskTable tbody tr {}
+.processesTaskMainDiv .processesTaskTable .taskPanel {}
+.processesTaskMainDiv .processesTaskTable .taskPanel .blockpanel {}
+.processesTaskMainDiv .processesTaskTable .taskPanel .blockpanel .page-header {}
+.processesTaskMainDiv .processesTaskTable .taskPanel .blockpanel .page-header > div {}
+.processesTaskMainDiv #processlistTemplate-list-myProcessesViewContent-formTask-editTemplate-contentPane {}
+.processesTaskMainDiv #processlistTemplate-list-myProcessesViewContent-formTask-editTemplate-contentPane .task-content {}
+.processesTaskMainDiv #processlistTemplate-list-myProcessesViewContent-formTask-editTemplate-contentPane #processlistTemplate-list-myProcessesViewContent-formTask-editTemplate-content-cfInner-bookingWithoutErrorPanel {}
+.processesTaskMainDiv #processlistTemplate-list-myProcessesViewContent-formTask-editTemplate-contentPane {}
+
+.processesTaskMainDiv .custom-form-columns .entity-label, .processesTaskMainDiv .custom-form-columns .output-text{ font-family: "BNPPRoundedv2",Arial,sans-serif !important;font-size: 16px !important;width: auto !important;}
+.processesTaskMainDiv .custom-form-columns {/*display: inline-block;margin-right: 2%;width: 100%;*/}
+.output-text a, .output-text a:link, .output-text a:visited, .output-text a, .output-text a:link, .output-text a:visited, .processesTaskMainDiv .custom-form-columns a strong span {color: #1ca25e !important}
+.processesTaskMainDiv .custom-form-columns #processlistTemplate-list-myProcessesViewContent-formTask-editTemplate-content-cfInner-insertHere-fc57 .input-radio {width: auto !important; padding: 0 15px 5px 10px;}
+.processesTaskMainDiv .custom-form-columns span {font-family: "BNPPRoundedv2",Arial,sans-serif !important;color: #000 !important;}
+.processesTaskMainDiv .custom-form-columns p span, #processlistTemplate-list-myProcessesViewContent-formTask-editTemplate-content-cfInner-insertHere-fc3 strong span {/*color: #000 !important*/}
+
+.custom-form-columns .entity-block .input-text {/*background: transparent !important;*/}
+.processesTaskMainDiv .custom-form-columns .output-text.entity-value p span span strong {color: red !important}
+.custom-form-columns .entity-block .input-text, .custom-form-columns .entity-block select {border: 1px solid #999999 !important;}
+
+.tablelistindent > label {
+display: block !important;
+margin: -20px 0 0 !important;
+padding: 0 30px !important;
+}
+
+
+/*********************************** HEADER *******************************************/
+
+
+@media screen and (min-width : 769px) and (max-width : 1200px) {
+
+html > body .headersection .headerpanel .linkpanel .link, html > body .headersection .headerpanel .linkpanel .selectedlink {padding: 6px 0 4px;}
+html > body .headersection .headerpanel .linkpanel .link a, .headersection .headerpanel .linkpanel .selectedlink a, .headersection .headerpanel .linkpanel .selectedlink span {font-size: 0.9em;padding: 2px;}
+.headersection .metalink a, .footeraction .footeractionpanel .footergroupactionpanel .metalink2 a, .mainsection .metapanel .metalink a {font-size: 0.9em;}
+.headersection .headerpanel .userpanel.leftpanel {margin: 7px 0 0 155px;}
+.headersection .headerpanel .rightpanel {left: 38.5%;top: 21px;}
+.headersection .headerpanel .linkpanel {top: 4px;}
+.headersection .headerpanel .metapanel .metalinkimg {margin-top: -5px;}
+
+}
+
+
+/*************************************************************************************/
+
+
+/* tablette */
+@media only screen and (max-width: 1280px) {
+
+body .masterbody, .myaccount, .alert-frame, .sugInput-sug, .callout, .blockpanel .input-textarea, .blockpanel .input-text, .blockpanel .input-smaller input, .blockpanel .input-select, .blockpanel .input-date-time select, .blockpanel .sugInput-input, .blockpanel .entity-value select, .blockpanel .inputtextmulti, .blockpanel .inputtextmulti2, .headersection .headerpanel{width: auto}
+#dialogTemplate-dialogForm .link2panel {background: url(../images/home-encart.jpg) no-repeat scroll top center / cover rgba(0, 0, 0, 0) !important;height: 281px !important; padding: 0 !important;}
+input[type="button"] {min-width: 30%;}
+#topNavInterface .link2panel li {width: 33.2%;}
+.jobsearch .resultpropertiescontentpanel {padding: 25px 0 25px 25px;}
+.headersection .headerpanel .linkpanel {right: 1%}
+.mainsection .buttonpanel-container .inputbutton {min-width: 30% !important;}
+.mainsection .headerpanel {border: 0 none;margin: 20px auto;padding: 0;width: 94%;}
+.mainsection .headerpanel .metapanel {background-color: transparent;clear: both;display: block;margin: 25px 0;padding: 0;text-align: center;}
+.datatrain-table .datatrain-wrapper {font-size: 13px;overflow: hidden;width: 100%;}
+.datatrain-table .datatrain-wagon {width: 7.3em;}
+.datatrain-wagon,.datatrain-wagon-link a, .sugInput-input-selected {font-size: 0.9em;}
+.datatrain-table .datatrain-tv {border: 0 none;width: 83% !important;}
+.accessmanagement .button-group-center {margin-left: 20px;}
+
+}
+
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+
+body, html {padding: 0;overflow-x: hidden;font-family: "BNPPRoundedv2",Arial,sans-serif}
+
+.headersection .headerpanel, .headersection .box .boxtop .boxb2-top, .headersection .box .boxtop .boxb3-top, .headersection .box .boxtop .boxb4-top, .footeraction .footeractionpanel, .footeraction .box .boxbottom .boxb4, .footeraction .box .boxbottom .boxb3, .footeraction .box .boxbottom .boxb2, .mainsection .headerpanel, .mainsection .boxtrain .boxtraintop .boxtrainb2-top, .mainsection .boxtrain .boxtraintop .boxtrainb3-top, .mainsection .boxtrain .boxtraintop .boxtrainb4-top, .alert-frame, .shiftavailability .titleshiftpanel, .shiftavailability .titledaypanel,.mainsection .iconpanelupdated, .mainsection .iconcontentpanelupdated, .headersection .link2panel, .mainsection .myjobpage .messagenotepanel, .headerpanel .datatrain-t, .headerpanel .datatrain-tv, .headerpanel .datatrain-tv-left-margin, .headerpanel .datatrain-tv-right-margin, .alert-message-notification, .shiftavailability .allshiftpanel, .shiftavailability .alldaypanel, .myaccount .headerblockpanel, .summary .headerblockpanel, .jobsearch .linkpanel, .jobsearch .boxpanelb2-top, .jobsearch .boxpanelb3-top, .jobsearch .boxpanelb4-top, .processesNotSelectedTaskItem td, .processes-table-link {background-color: #fff;}
+.headersection {height: auto !important;clear: both; /*height: 205px !important*/}
+.headersection .headerpanel .linkpanel .magnifierimg,
+.headersection .box .boxtop, .mainsection .column165, .messagecenter .column165,
+.headersection .headerpanel .metapanel .metalinkimg, .legendpanel .imgjobcart, .iconstatuspanel .imgjobcart,.headersection .headerpanel .metapanel .metagrouppanel .separator,
+html > body .headersection .link2panel .separatorlink2, .languageSelectInterface label, .jobsearch .separator, .boxpanel, .jobsearch .linklabel,
+.jobsearch .boxresults, .mainsection .calloutimg, .mainsection .iconpanel, .accessmanagement .dialog-columns-openid, #gotoContent, .pagerlinkselected,
+.headersection .headerpanel .userpanel .username, .headersection .headerpanel .userpanel .separator, .accessmanagement .nav-btn5, #dialogTemplate-dialogForm-flowHeader-jobSearchTabAction, .mainsection .pagerpanel .pagersectionpanel .separator,
+.requisitionDescription #requisitionDescriptionInterface .metagrouppanel .metapanel .metalink2 a, .pagerlink a, .headersection .headerpanel .linkpanel,
+.pagerpanel .pagersectionpanel .separator, #editTemplateMultipart-editForm-masterbody .datatrain-tv, #dialogTemplate-dialogForm-flowHeader-jobSearchURLAction,
+#et-ef-content-flowTemplate-mastercontentpanel2 .blockpanel .metagrouppanel .metapanel, #dialogTemplate-dialogForm .accessmanagement .headersection .headerpanel .linkpanel
+{display: none !important;}
+#dialogTemplate-dialogForm .accessmanagement .headersection .headerpanel .linkpanel {/*display: block !important;*/}
+.headersection .headerpanel, .headersection .link2panel, .jobsearch .linkpanel {border-width: 0;}
+.headersection .headerpanel {height: 25px}
+body .masterbody, .alert-frame, .sugInput-sug, .callout, .blockpanel .input-textarea, .blockpanel .input-text, .blockpanel .input-smaller input, .blockpanel .input-select, .blockpanel .input-date-time select, .blockpanel .sugInput-input, .blockpanel .entity-value select, .blockpanel .inputtextmulti, .blockpanel .inputtextmulti2{width: auto;margin: 0 auto 30px}
+.headersection .headerpanel .linkpanel .link, html > body .headersection .headerpanel .linkpanel .link,.headersection .spacerlink2panel {border-width: 0;margin: 0;background: transparent;padding: 0;}
+.headersection .headerpanel {width: auto;padding: 15px 10px;border-top: 2px solid #13a481;background: url(../images/logo-mobile.png) no-repeat scroll 10px center / 150px auto;}
+#dialogTemplate-dialogForm #dialogTemplate-dialogForm-flowHeader-jobSearchTabAction, #ftlform .headersection .headerpanel ul.linkpanel .link .grouplink a
+{display: block !important; background: url(../images/search.svg) no-repeat right center; height: 26px;width: 26px;margin: 10px 15px 0 0;text-align: left;text-indent: -99999px;}
+#dialogTemplate-dialogForm-masterbody, .mastercontentpanel, .mastercontentpanel2 {overflow: hidden;background: #f1f1f1 !important;width: 100%}
+.accessmanagement .block-main-border-fix {background: #f1f1f1;border-bottom: 2px solid #13a481;margin-bottom: 25px;padding:20px 20px 70px;overflow: hidden;}
+#dialogTemplate-dialogForm .link2panel {background: url(../images/home-encart.jpg) no-repeat scroll top center / cover rgba(0, 0, 0, 0) !important;height: 281px !important; padding: 0 !important;}
+#ftlform .link2panel, #et-ef .link2panel, #editTemplateMultipart-editForm .link2panel  {background: url(../images/encart.jpg) no-repeat scroll top center / cover rgba(0, 0, 0, 0) !important;height: 281px !important; padding: 0 !important;}
+.accessmanagement .page-header {display: inline;margin: 0;padding: 0;}
+.accessmanagement .dialog-columns-2 {padding:15px 0;}
+
+label {color: #000 !important;display: block !important;font-size: 16px !important;margin: 5px 0 !important;padding: 0 !important;}
+input[type="button"] {display: block !important;-webkit-border-radius: 3px 3px 3px 3px !important;border-radius: 3px 3px 3px 3px !important;text-align: center;
+min-width: 80%;padding: 15px 0 !important;float: none !important;margin: 0 auto 10px !important; background: #1ca25e !important;border: 0 none !important;
+color: #ffffff !important;font-size: 14px !important;font-family: "BNPPRoundedv2",Arial,sans-serif !important;}
+
+.accessmanagement .button-group-center {margin: 20px auto 0;padding: 0;text-align: center;width: 100%;}
+
+button,input,select,textarea{font-size:100%;vertical-align:middle;margin:0;}
+button,input,select{overflow:visible;line-height:normal;}
+button::-moz-focus-inner,input::-moz-focus-inner, select::-moz-focus-inner{border:0;padding:0;}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;}
+label,select,button,input[type=button],input[type=reset],input[type=submit],input[type=radio],input[type=checkbox]{cursor:pointer;}
+
+.headersection .metalink.metalinkinline, .headersection .headerpanel .metapanel .metagrouppanel {float: right;height: 23px;text-align: left;width: auto;}
+.rightpanel .metapanel .metagrouppanel .metalink.metalinkinline .metalink.metalinkinline a, #et-ef #et-ef-content-myAccountViewContent-flowHeader-logoutAction, #et-ef-content-myAccountAuthInfoEditContent-flowHeader-logoutAction, #editTemplateMultipart-editForm-content-ftf-flowHeader-logoutAction, #et-ef-content-ftf-flowHeader-logoutAction, #et-ef-content-myAccountPersonalInfoEditContent-flowHeader-logoutAction, #et-ef-content-myAccountMessageEditContent-flowHeader-logoutAction, #selectorSubView-selectorSubView-selectorForm-flowHeader-logoutAction, #dialogTemplate-dialogForm-flowHeader-loginAction, #et-ef-content-flowTemplate-flowHeader-logoutAction {background: url(../images/off.svg) no-repeat right center !important;padding: 0; display: block !important;text-indent: -99999px;width: 26px;height: 26px}
+.rightpanel .metapanel .metagrouppanel .metalink a, #dialogTemplate-dialogForm-flowHeader-myJobPageTabAction/*, .mainsection .contentlist .ftlcopy.ftlrow .jobcontentpanel*/{background: url(../images/selection.svg) no-repeat center -1px;padding: 0; display: block !important;text-indent: -99999px;height: 26px;width: 26px;text-align: left}
+.headersection .headerpanel .userpanel .metalink {width: 26px;height: 26px;background: url(../images/cpt.svg) no-repeat center center;padding: 0; display: block !important;text-indent: -99999px;}
+.headersection .headerpanel .userpanel .metalink a {width: 26px;height: 26px;background: url(../images/cpt.svg) no-repeat center center;padding: 0; display: block !important;text-indent: -99999px;}
+
+.rightpanel .metapanel .metagrouppanel .metalink.metalinkinline .metalink.metalinkinline a {float: right;margin: 0 0 0 8px;}
+.rightpanel .metapanel .metagrouppanel .metalink a {float: left;margin: 0 0 0 8px;}
+
+.headersection .headerpanel .rightpanel {float: right;left: auto;position: absolute;right: 2% !important;width: auto;}
+.jobsearch .tablelist1 {display: inline-table;}
+
+/* recherche */
+#ftlform .headersection .headerpanel .metapanel .metagrouppanel {/*display: flex;*/}
+
+#topNavInterface .link2panel li {border: 0 none;padding: 0;border-right: 1px solid #aeaca9;float: left;font-family: "BNPPSansCondv2",Arial,sans-serif;background-color: rgba(255, 255, 255, .7);font-size: 18px;text-align: center; width: 33.22%;}
+
+.jobsearch .mastercontentpanel, .mainsection .searchresults, .myaccount, .myjobpage .mastercontentpanel2 {padding: 25px 3%;margin: 0 auto;width:94%;border-bottom: 2px solid #13a481;border-left: 0;border-top: 0;border-right: 0}
+.languageSelectInterface {float: none;margin-bottom: 0;}
+
+select {color: #484848 !important;width: 100% !important;height: 32px;padding: 5px 1% 4px 5px;}
+h2.no-change-header-inline {clear: both;display: block;}
+h2.no-change-header-inline span {color: #000 !important}
+.mainsection .columnfull {padding: 0;float: none;width: 100%}
+.jobsearch .titlemetapanel1 {height: auto;margin:30px 0 -35px;}
+.mainsection .searchresults .resultstitlepanel  {}
+.jobsearch .titlemetapanel {display: block;margin: 40px 0 25px;padding: 0;}
+.jobsearch #requisitionListInterface .titlemetapanel {margin: 0}
+.jobsearch .column {clear: both;float: none;width: 100%;display: none;}
+.mainsection .tablelist {width: 100%}
+.jobsearch .titlepanel {display: inline-flex;margin: 0;padding: 0;}
+.jobsearch {background: #f1f1f1 !important}
+.mainsection .metalink2 a, .mainsection .pagerpanel .pagersectionpanel .pagerlink a, .blockpanel .loc-action-btn a, .mainsection .textlink a, .myaccount .metalink2 a, .accessmanagement .link-small a, .blockpanel .list .listpanel .metalink2 a, .footersection .poweredbytaleolink a, .messagecenter .toolbar a, .messagecenter .list-column a, .alert-button-panel a, .messagecenter .section-name a {color: #1ca25e;font-size: 16px;}
+.titlemetapanel .metalink2 {clear: both;display: block;margin: 5px 0;text-align: center;}
+.linkpanel {background: transparent !important;}
+.jobsearch .selectedlink {background-color: transparent; border: 0 none !important;color: #000 !important;font-size: 16px !important;margin: 5px 0 !important;padding: 0 !important;text-decoration: none;}
+.jobsearch .contentdatapanel {background: transparent !important;border: 0 none;display: block;float: left;margin: 0;padding: 0;width: 100%;overflow: hidden;}
+.jobsearch .linkpanel,.jobsearch .resultpropertiescontentpanel {border:0;margin: 0;padding: 0;}
+.jobsearch .addjobfieldaction .action a {background: url(../images/plus.svg) no-repeat scroll left center rgba(0, 0, 0, 0);color: #1ca25e;display: inline-block;font-size: 14px;height: 26px;padding: 10px 0 0 35px;text-indent: 0;width: auto;}
+.contentdatapanel .action a {background: url(../images/supprimer.svg) no-repeat scroll center center rgba(0, 0, 0, 0);display: block;height: 26px;padding: 0;text-indent: -99999px;width: 26px;position: relative;z-index: 500000}
+.jobsearch .labelcontent {clear: both;display: block;}
+.jobsearch .contentdatapanel .ftlmulti {clear: both;display: block;float: left;width: 88%;margin-right: 5px}
+.jobsearch .contentdatapanel .action {display: block;float: left;}
+
+.jobsearch .addjobfieldaction {text-align: left}
+.basicSearchHeaderInterface {border-bottom: 2px solid red}
+.jobsearch .resultpropertiescontentpanel {padding: 25px 0;}
+
+.mainsection .searchresults .resultstitlepanel .subtitle, .mainsection .myjobpage .resultstitlepanel .subtitle {color: #010101;font-size: 16px;}
+.mainsection .contentlist .ftlcopy.ftlrow {background: #fff;}
+.mainsection .iconcontentpanel {padding: 3%;width: 94%;overflow: hidden;height: auto;}
+.mainsection .jobcontentpanel .metalink2 a, .mainsection .titlelink a:hover, .jobsearch .titlelink a:hover {color: #009d6b;text-decoration: underline;}
+.mainsection .jobcontentpanel .metalink2 a {font-size: 18px !important;text-transform: uppercase; float: left;padding: 3px 5px 0 0;width: 26px; }
+.mainsection .jobcontentpanel .metalink2:nth-child(2n) a {background: url(../images/selection.svg) no-repeat center -2px;display: inline-block;height: 26px;margin: 0 13px 0 5px;padding: 0;text-indent: -99999px;width: 26px !important;}
+
+.myaccount .headerblockpanel .metalink2 a {padding: 20px 0 0;float: right; background: url(../images/modifier.png) no-repeat right center;display: block;height: 14px;padding: 0;text-indent: -99999px;width: 14px;}
+
+.mainsection .pagerpanel .pagersectionpanel .pagerlabel {clear: both;display: block;margin-bottom: 10px;}
+.mainsection .pagerpanel .pagersectionpanel .pagerlinkoff a, .mainsection .pagerpanel .pagersectionpanel .pagerlink a {margin: 0 5px}
+.mainsection .pagerpanel .pagersectionpanel:last-child a {background: url(../images/next.png) no-repeat center center;display: inline-block !important;height: 40px;text-indent: -99999px;width: 35px;}
+.mainsection .pagerpanel .pagersectionpanel:nth-child(2) a, .requisitionDescription #requisitionDescriptionInterface .metapanel2 .metalink2 a {background: url(../images/prev.png) no-repeat center center;display: inline-block !important;height: 40px;text-indent: -99999px;width: 35px;}
+
+.headersection .headerpanel .userpanel.leftpanel {left: auto;margin-top: 1px;position: absolute;right: 85px;}
+.myaccount .secondcolumn {display: block;margin-bottom: 15px;vertical-align: middle;width: auto;}
+.myaccount .firstcolumn {display: block;padding: 0;vertical-align: top;width: auto;}
+.myaccount .titleactionpanel {display: block;padding: 0;}
+.mainsection .searchresults .listingperpagepanel .label {margin: 15px 0 0 !important;}
+.accessmanagement .dialog-columns input {width: 97% !important;}
+
+.blockpanel .custom-form-columns {/*display: block;width: auto;*/}
+#et-ef-content-myAccountPersonalInfoEditContent-cfrmsub-frm-fc1, .blockpaneledit table {width: 100%;}
+.blockpanel .custom-form-columns input, .blockpanel .custom-form-columns select {/*max-width: 100%;*/}
+#et-ef-content-myAccountPersonalInfoEditContent-cfrmsub-frm-dv_cs_candidate_personal_info_ResidenceLocation {max-width: 100%;width: 100%;margin: 0;}
+.myaccount .tablelist .columnfull > .buttonpanel {display: block;margin: 0 0 30px;}
+
+.mainsection .myjobpage .messagenotepanel {margin: 0 0 20px 0}
+#requisitionDescriptionInterface .ftllist .no-change-header {margin: 10px 0 0;}
+#advancedSearchInterface {width: 100%}
+#editTemplateMultipart-editForm-content-ftf-mastercontentpanel .descriptionpanel, #et-ef-content-ftf-mastercontentpanel .descriptionpanel {margin:0 0 20px;}
+#editTemplateMultipart-editForm-masterbody .mainsection .headerpanel {padding: 0 2%;}
+.headerpanel .tabledatatrain, .metapanel .separator, .command-link-visited, .headerpanel .metapanel .metalink a {display:none;}
+#editTemplateMultipart-editForm-masterbody .datatrain-wrapper {width: auto;}
+.datatrain-table {display:none;}
+.mainsection .buttonpanel-container .inputbutton {min-width: 80% !important;}
+#editTemplateMultipart-editForm-masterbody {margin: 0 auto 60px}
+.footeraction {margin: 0 auto;padding: 25px 0;width: 100%;overflow: hidden;background: #f1f1f1}
+.mainsection .headerpanel {border: 0 none;margin: 20px auto;padding: 0;width: 94%;}
+.mainsection .flowstatus {display: inline-block;margin-top: 15px;width: auto;}
+.mainsection .headerpanel .metapanel {background-color: transparent;clear: both;display: block;margin: 25px 0;padding: 0;text-align: center;}
+.textindentpanel .inputtextmulti2, .inputtextmulti3 {width: 98% !important;}
+#selectorSubView-selectorSubView-selectorForm-mainsection .columnfull .pager #pagerSummary #pagerSummary{display: none;}
+.alert-frame-margin-top {width: 85% !important;}
+.inputtextgrouppanel .inputtextmulti2 {width: 98% !important;}
+.mainsection .editablesection .jobposted {display: inline-block;margin-bottom: 10px;}
+.mainsection .captionleft .text {font-size: 14px !important}
+.nolabelvaluepanel .attachment-list-column .text {font-size: 9px}
+.summary .nolabelvaluepanel .list .list-header, .summary .nolabelvaluepanel .list .list-column,.nolabelvaluepanel .attachment-list-column, .nolabelvaluepanel .attachment-list-header{ display: block;}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+body {background: #222}
+#topNavInterface .link2panel li {width: 33.19%;font-size: 1.1rem;}
+.headersection .headerpanel .userpanel.leftpanel {margin-top: 1px;right: 80px;}
+.list-column-value {font-size: 12px;}
+
+}
+
+@media screen and (max-width: 480px) {
+
+#topNavInterface .link2panel li span, #topNavInterface .link2panel li a {width: 65%; height: 70px;font-size: 1.2rem;}
+#topNavInterface .link2panel li span, #topNavInterface .link2panel li a {padding: 15px 0 0;}
+#topNavInterface .link2panel li {width: 33.11%;}
+.headersection .headerpanel .userpanel.leftpanel {right: 78px;}
+.list-column-value {font-size: 12px;}
+.mainsection .textindentpanel .inputtext300 { width: 50%;}
+.blockpanel .custom-form-columns input, .blockpanel .custom-form-columns select, .blockpanel .custom-form-columns .entity-value, .blockpanel .custom-form-columns .entity-value select, .blockpanel .custom-form-columns .entity-label {/*max-width: 250px;*/}
+
+}
